@@ -1,0 +1,19 @@
+Needed to add a new page size to the file:
+
+/usr/local/texlive/2011/texmf-dist/tex/latex/tufte-latex/tufte-common.def 
+in 3 places:
+
+%%
+% `blurb' option
+
+\newboolean{@tufte@blurb}
+\DeclareOptionX[tufte]<common>{blurb}{\setboolean{@tufte@blurb}{true}}
+
+\ifthenelse{\boolean{@tufte@blurb}}
+  {\geometry{paperwidth=7.875in,paperheight=10in,left=1in,top=1in,headsep=2\baselineskip,textwidth=26pc,marginparsep=2pc,marginparwidth=12pc,textheight=44\baselineskip,headheight=\baselineskip}}
+    {}
+
+
+    \typeoutbool{blurb}{@tufte@blurb}
+
+In lyx, Document settings > Document Class : Class options > Custom: blurb

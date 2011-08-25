@@ -24,8 +24,10 @@
 /RegistryName (http://www.color.org/)
 >> ] >>
 }
+
   
 \end_preamble
+\options blurb
 \use_default_options true
 \begin_modules
 logicalmkup
@@ -48,7 +50,7 @@ eqs-within-sections
 \font_sf_scale 100
 \font_tt_scale 100
 
-\graphics default
+\graphics xetex
 \default_output_format pdf4
 \output_sync 0
 \bibtex_command default
@@ -129,6 +131,16 @@ vspace{-70mm}
 \end_inset
 
 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Pippa Middleton
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -202,7 +214,7 @@ newthought{Begin with Einstein's}
 status open
 
 \begin_layout Plain Layout
-Einstein
+people!Einstein, Albert
 \end_layout
 
 \end_inset
@@ -342,6 +354,16 @@ vspace{3mm}
 \end_inset
 
 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equations!inertial/gravitational masses
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -373,7 +395,7 @@ Gravity is broken in a variety of ways (enjoy the PHD Comics version if
 \begin_inset Float marginfigure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -405,7 +427,7 @@ The first tests of the weak equivalence principle were done by Galileo
 status open
 
 \begin_layout Plain Layout
-Galileo
+people!Galilei, Galileo
 \end_layout
 
 \end_inset
@@ -430,7 +452,7 @@ Galileo
 \begin_inset Float marginfigure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -554,7 +576,7 @@ hypercomplex!gravity
 status open
 
 \begin_layout Plain Layout
-Rosen
+people!Rosen, N.
 \end_layout
 
 \end_inset
@@ -688,25 +710,15 @@ duality
 status open
 
 \begin_layout Plain Layout
-Newton
+Newton!gravitational force law
 \end_layout
 
 \end_inset
 
  that gets light bending around the Sun half right.
  Partial duality is like being partially pregnant.
- Newton's
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Newton!gravitational force law
-\end_layout
-
-\end_inset
-
- theory must be expanded from a scalar theory to a 4-vector to be dual to
- a metric approach for light bending experiments.
+ Newton's theory must be expanded from a scalar theory to a 4-vector to
+ be dual to a metric approach for light bending experiments.
  By working on a different rank than general relativity
 \begin_inset Index idx
 status open
@@ -747,7 +759,7 @@ The Particles
 status open
 
 \begin_layout Plain Layout
-Particles|textbf
+particles|textbf
 \end_layout
 
 \end_inset
@@ -872,13 +884,23 @@ newthought{Einstein guessed}
 
 \end_inset
 
- at his field equations.
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Einstein, Albert
+\end_layout
+
+\end_inset
+
+at his field equations.
  Hilbert
 \begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
-Hilbert
+people!Hilbert, David
 \end_layout
 
 \end_inset
@@ -1043,7 +1065,7 @@ Lagrangian!Hilbert
 status open
 
 \begin_layout Plain Layout
-Ricci scalar
+Ricci!scalar
 \end_layout
 
 \end_inset
@@ -1070,15 +1092,6 @@ curvature
 \end_inset
 
  of spacetime all flows from the Ricci scalar.
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Ricci scalar
-\end_layout
-
-\end_inset
-
  The inertial mass
 \begin_inset Index idx
 status open
@@ -1110,17 +1123,7 @@ strong equivalence principle
 
 \end_inset
 
- in the vacuum since the only player on the stage is the Ricci scalar
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Ricci scalar
-\end_layout
-
-\end_inset
-
-.
+ in the vacuum since the only player on the stage is the Ricci scalar.
  With the matter contribution, the story may get more complicated.
  To be honest, I don't have a deep enough training in general relativity
 \begin_inset Index idx
@@ -1182,7 +1185,17 @@ general relativity
 silent
 \emph default
  as to why anything has mass.
- GR is not a player in the Higgs derby.
+ GR is not a player in the Higgs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!boson
+\end_layout
+
+\end_inset
+
+ derby.
 \end_layout
 
 \begin_layout Standard
@@ -1231,6 +1244,16 @@ vspace{5mm}
 \begin_inset Graphics
 	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq4_L_GEM
 	width 4in
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equation!GEM!Lagrangian
+\end_layout
 
 \end_inset
 
@@ -1318,6 +1341,16 @@ vspace{5mm}
 \begin_inset Graphics
 	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq5_gauge.eps
 	width 4in
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equation!GEM!gauge
+\end_layout
 
 \end_inset
 
@@ -1561,7 +1594,7 @@ relativistic velocity
 \begin_inset Float marginfigure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1583,7 +1616,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Art!The Speed of Light According to René Magritte
+art!The Speed of Light According to René Magritte
 \end_layout
 
 \end_inset
@@ -1601,7 +1634,7 @@ Snarky Puzzle
 status open
 
 \begin_layout Plain Layout
-Snarky Puzzle
+snarky puzzle!pathological potentials
 \end_layout
 
 \end_inset
@@ -1662,8 +1695,18 @@ vspace{5mm}
 \begin_layout Standard
 This is not as bad as it appears: do it one time, the rest are variations
  in the signs of different terms.
- Take the group U(1) pointed in the direction of (1, 2, 3, 4) and feed that
- group into these eight quaternion polynomials.
+ Take the group U(1)
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!U(1)
+\end_layout
+
+\end_inset
+
+ pointed in the direction of (1, 2, 3, 4) and feed that group into these
+ eight quaternion polynomials.
  There should be one obvious property of the ones where the gauge happens
  to be equal to zero.
 \end_layout
