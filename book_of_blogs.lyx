@@ -1,0 +1,3431 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass tufte-book
+\begin_preamble
+%%%%%%%%% PDF/X-3 stuff, necessary for Blurb IF USING xelatex %%%%%%%%%
+\special{pdf:docinfo <<
+/Title (Equivalence Principle)   % set your title here
+/Author (Doug Sweetser)       % set author name
+/Subject (Physics)          % set subject
+/Keywords (Strong Equivalence Principle) % set keywords
+/Trapped (False)
+/GTS_PDFXVersion (PDF/X-3:2002)
+% must have a trim box, but I think Blurb ignores the values
+/TrimBox [0.00000 9.00000 684.36000 585.00000] >>
+}
+\special{pdf:put @catalog <<
+/OutputIntents [ <<
+/Info (none)
+/Type /OutputIntent
+/S /GTS_PDFX
+/OutputConditionIdentifier (Blurb.com)
+/RegistryName (http://www.color.org/)
+>> ] >>
+}
+  
+\end_preamble
+\options blurb
+\use_default_options true
+\begin_modules
+logicalmkup
+tabs-within-sections
+figs-within-sections
+eqs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics xetex
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Visualizing Quantum Interference
+\end_layout
+
+\begin_layout Standard
+Quantum interference is really, really, really well-supported by data, data,
+ data.
+ Visualizing quantum interference is a blank slate.
+ This may be a root source of frustration with any world view based on quantum
+ mechanics.
+ More of our brains are devoted to visualization than any other process.
+ Given a diet of equations and stories, the visual section of our brains
+ in the back of the skull must sit idle.
+ "Idleness is the devil's workshop."
+\end_layout
+
+\begin_layout Standard
+In this blog, John Wheeler's delayed choice thought experiment will be explained.
+ The idea briefly is to ask if a single photon goes down a specific path
+ or if the solitary photon goes down two paths so it can interfere with
+ itself.
+ In 2006, the thought experiment was made real by Alain Aspect and his collabora
+tors.
+ The paper provides the simple equations I was able to use to make quaternion
+ animations of the process.
+ The reader will be able to see animations of quantum interference for the
+ first time.
+\end_layout
+
+\begin_layout Standard
+Here is a sketch of John Wheeler's nightmare:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_choice_one_fig.eps
+	width 160mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The intensity of the source is adjusted so that it emits one photon at a
+ time.
+ The photon comes to a beam splitter.
+ The solitary photon can either stay down, or turn and go to the up path
+ or perhaps the silent solitary one decides to go on both paths as part
+ of a plan to create an interference pattern (photons are devilishly clever).
+ At the detector box, the experimentalist makes a choice: see if the photon
+ took the down path, or the up path, or both paths as would be needed to
+ see an interference pattern.
+ The decision about what type of measurement to do is delayed until after
+ the photon has passed by the beam splitter (technically, a spacelike separation
+ is required).
+ Wheeler argued that the odd logic of quantum mechanics demands such schizophren
+ic behavior.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Marginnote
+status collapsed
+
+\begin_layout Plain Layout
+Side bar: The single photon red herring Intensity has never been an issue
+ in quantum mechanics since the day Einstein explained the photo electric
+ effect.
+ People will nod along with the statement that intensity is not relevant
+ to quantum processes.
+ The consequence of the statement is that lowering the intensity to one
+ photon a day does not change an effect except to slow the rate the experimental
+ist collects data.
+ Water molecules hold hands using hydrogen bonds, so water waves are changed
+ by intensity.
+ Photons are isolationists, whether as solitary skaters in this experiment,
+ or if sent as a swarm of a billion a second.
+ The photons never hold hands or work together.
+ Looking at a quantum effect one photon at a time is a red herring.
+ People love their herrings and will defend their right to focus on the
+ fish.
+ I intend to swim on by.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wheeler's thought experiment was made real by Alain Aspect and his collaborators.
+ The paper was fun to read and reread.
+ I think the experimentalists got it right.
+ Here is the entire abstract: 
+\end_layout
+
+\begin_layout Verse
+ABSTRACT: The quantum "mystery which cannot go away" (in Feynman's words)
+ of wave-particle duality is illustrated in a striking way by Wheeler's
+ delayed-choice Gedanken Experiment.
+ In this experiment, the configuration of a two-path interferometer is chosen
+ after a single-photon pulse has entered it: either the interferometer is
+ closed (i.e.
+ the two paths are recombined) and the interference is observed, or the
+ interferometer remains open and the path followed by the photon is measured.
+ We report an almost ideal realization of that Gedanken Experiment, where
+ the light pulses are true single photons, allowing unambiguous which-way
+ measurements, and the interferometer, which has two spatially separated
+ paths, produces high visibility interference.
+ The choice between measuring either the 'open' or 'closed' configuration
+ is made by a quantum random number generator, and is space-like separated
+ -- in the relativistic sense -- from the entering of the photon into the
+ interferometer.
+ Measurements in the closed configuration show interference with a visibility
+ of 94%, while measurements in the open configuration allow us to determine
+ the followed path with an error probability lower than 1%.
+\end_layout
+
+\begin_layout Standard
+With the information provided so far, I don't think this story can make
+ sense.
+ People defend the idea that this story must be accepted as is, after all
+ it is supported by the following data from the paper:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/figure_3_with_diagrams.png
+	width 160mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+This situation reminds me of something I learned about illusion in the film
+ "The Prestige".
+ That was a great film by the way, one that has to be watched two or three
+ times before you get it.
+ An illusion has three parts: 
+\end_layout
+
+\begin_layout Enumerate
+The Pledge
+\end_layout
+
+\begin_layout Enumerate
+The Turn
+\end_layout
+
+\begin_layout Enumerate
+The Prestige 
+\end_layout
+
+\begin_layout Standard
+The Pledge starts out the story with something ordinary.
+ Members of the audience are invited on stage to prove to themselves the
+ items are everyday, that knots are secure, that everything is as it seams.
+ The Turn is when things disappear that should not be able to vanish.
+ The audience is confused, nervous that something may have gone wrong.
+ The work for the illusionist happens at the third step: the Prestige, when
+ the missing thing is brought back, completely unharmed.
+ 
+\end_layout
+
+\begin_layout Standard
+In quantum mechanics today, I feel we must live with the Turn.
+ People who study and know some of the vital experiments in quantum oddness
+ like the delayed choice experiment will tell you that is the way, accept
+ that you cannot understand.
+ A small circle of fringe folks will holler about their own approach, one
+ which shows no understanding of the Pledge or Turn of quantum mechanics.
+ A real illusionist would know exactly where the answer was placed.
+ I put the answer in plain English, but surrounded it with words that would
+ make the reader focus on a different subject.
+ It was in the illustration, but let me now supply some detail:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_choice_coherent.eps
+	width 160mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+I mentioned the source was coherent, but only in the context of intensity.
+ The math of the source is treated as ordinary, even if it isn't.
+\end_layout
+
+\begin_layout Standard
+The up/down path detector is another herring, albeit more tempting given
+ the name of the thought experiment.
+ No matter what the source is, we can detect if it went on one path or another
+ after a beam splitter.
+ That is not a mystery.
+ What needs to be understood is the interference for a non-interacting particle
+ of a coherent source.
+\end_layout
+
+\begin_layout Standard
+The source is so not random.
+ Write out the wave function that would account for both ports, the complete
+ picture:
+\end_layout
+
+\begin_layout Standard
+Take the norm in order to calculate the probabilities of being in port 1
+ or 2:
+\end_layout
+
+\begin_layout Standard
+This is unity as it must be.
+ Observers, sitting as they do at the spatial center of their own Universe
+ (0, 0, 0), get probabilities of seeing an event from the source by taking
+ the norm.
+\end_layout
+
+\begin_layout Standard
+Let's use the quaternion animation software to look at the amplitude of
+ the wave function as is, equation 1, even though no one can see it.
+\end_layout
+
+\begin_layout Standard
+The animation has the symmetry U(1), a unit circle in the complex plane
+ of Right-Left+time.
+ 
+\end_layout
+
+\begin_layout Standard
+The animation reveals a problem with the visualization.
+ When the phase shift is introduced, it will all be in the x direction.
+ That shift will be darn near impossible to notice.
+ To aid visualization, take the shift in x, and also create a corresponding
+ shift in y.
+ This spreads out what is happening along x.
+\end_layout
+
+\begin_layout Standard
+Two walls collide.
+ Is it possible to follow one value of the phase? Again we are not being
+ physical because individual photons cannot be marked in red, but the software
+ can do the job:
+\end_layout
+
+\begin_layout Standard
+Why are there so many points in this animation? Because every point in spacetime
+ can be mapped to this unit circle.
+\end_layout
+
+\begin_layout Standard
+Label the two paths A and B.
+ A is never shifted, B is shifted anywhere from phi = 0 to 10 pi.
+ The data in figure 3 of the paper involves 4 calculations:
+\end_layout
+
+\begin_layout Standard
+A* B - interference (3a) B* A - interference (3a)
+\end_layout
+
+\begin_layout Standard
+A* A - no interference (3b) B* B - no interference (3b)
+\end_layout
+
+\begin_layout Standard
+We can see the lack of ambiguity for the no interference case.
+ The first two are going to be more complicated.
+ For a fixed value of phi and omega = 1, vary t and plot:
+\end_layout
+
+\begin_layout Standard
+This is what quantum interference can look like: the combination of three
+ complex plane images: a straight line, a circle, and something sinusoidal.
+ No wonder this is tricky! (one technical detail: for the way my software
+ is designed, I had to swap the roles of x and y, as you can tell since
+ the circle is now in the ty plane instead of the tx plane.
+ A bigger and smoother version of this animation is available).
+\end_layout
+
+\begin_layout Standard
+I am not going to market these images as trivial to understand as that would
+ mock any earlier efforts to have a visual interpretation of quantum interferenc
+e.
+ Instead I can point out why these images are a challenge.
+ Time is a scalar, space is a vector.
+ In quantum mechanics, the scalar is not a dull, monotonically increasing
+ function.
+ Instead, time toys with space, but mapping it back into the same space,
+ thus hiding its hand.
+ I needed to take what was only happening between time and one dimension
+ of space and use another dimension to get a better handle on what was happening.
+\end_layout
+
+\begin_layout Standard
+"What does one plus equal?" That is good English, math gibberish.
+ "Did the photon go on the up or the down path?" While the question is perfect
+ English, its is a poorly formed question for quantum interference.
+ Poorly formed questions can never be answered.
+ "Was there a photon at this location and at this time?" is a well-formed
+ question.
+ If you know exactly when a photon is seen, then a second prior to being
+ detected you can make a statement about where it was, no matter what detector
+ was used.
+ Say the beam splitter was 2 light seconds away from the detector.
+ Then there is a 50-50 chance the photon was at the half-way point of the
+ up or the down path.
+ If the down detector saw the photon, then the photon was at the half-way
+ point in the down path.
+ Notice I said both time and space locations.
+ The photon was not in some arbitrary place along the down path a light
+ second before detection.
+\end_layout
+
+\begin_layout Standard
+What can be said if the interference detector was used? If the interference
+ saw the maximal constructive interference, then one light second before
+ detection, the photon was a the half-way point between either up or down.
+ If the interference was at the maximal destructive point, then there was
+ definitely no photon at the halfway point in either branch.
+ For interference value between these two extremes, it sets the odds on
+ a photon being at the halfway point a light second before being detected.
+\end_layout
+
+\begin_layout Standard
+The coherent source is exceptionally well organized.
+ It is the exquisite organization of the source that one sees in the interferenc
+e pattern.
+ Let messengers from the neat source house of particles travel down two
+ paths of different lengths, and the resulting pattern looks like interference.
+ The emissaries have no need to interact with each other, the proverbial
+ bump into each other.
+\end_layout
+
+\begin_layout Standard
+From my perspective, the height of absurdity in theoretical physics today
+ are those trying to work without time.
+ No doubt they think the delayed choice experiment is on their side.
+ The event of the beam splitting and the choosing the type of detector is
+ spacelike separated (a feat that was technically a great challenge to accomplis
+h).
+ A physics illusionist would point out that spacelike separation is a calculatio
+n done on two events in spacetime.
+\end_layout
+
+\begin_layout Standard
+The results look rational, the visual part of my brain is happy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq2_newt_complete.eps
+	width 6.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/Equivalence_principle/ton.jpg
+	width 50mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+T
+\end_layout
+
+\begin_layout Section*
+The Subheading
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Particles|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Snarky Puzzle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Snarky puzzle: Supersymmetry has superpartners to build super friends between
+ particles that take different amounts of time to jog around a circle.
+ Animate this:
+\end_layout
+
+\begin_layout Standard
+Notice how the tx takes 4 pi to get back to go, ty needs 2pi, and tz zips
+ around in pi radians.If you like a three-way as much as I do (in theory
+ at least), please discuss.
+\end_layout
+
+\begin_layout Chapter
+Steve Weinberg
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Weinberg, Steven|textbf
+\end_layout
+
+\end_inset
+
+ and I
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{20mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/steven_weinberg.jpg
+	width 30mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+I don't like Steven Weinberg.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-100mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/dreams_cover.rot.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Good, I have said it.
+ I will provide a brief biographical sketch and a short list of his lengthy
+ accomplishments.
+ I read one of his science outreach books, "Dreams of a Final Theory
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+books!Dreams of a Final Theory
+\end_layout
+
+\end_inset
+
+: The Search for the Fundamental Law of Nature".
+ I will pluck out three issues from the book to show why our scientific
+ beliefs are divergent.
+\end_layout
+
+\begin_layout Standard
+Steve-o went to the Bronx High School of Science
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Bronx High School of Science
+\end_layout
+
+\end_inset
+
+.
+ That school's reputation towers above all others in the nation, public
+ or private.
+ The school is a magnet pulling from the vast pool of scrappy New York City
+ kids.
+\end_layout
+
+\begin_layout Standard
+Stevie skipped through the elite tiers of higher ed: Cornell, the Neils
+ Bohr Institute in Copenhagen, Princeton, Berkeley, Columbia, Harvard, a
+ year visiting at MIT, and the University of Texas at Austin.
+ The last stint was located close to the filled in hole in the ground known
+ as the Superconducting Super Collider
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Superconducting Super Collider
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Steve is the third most creative physicist on the planet according to one
+ study.
+ He shared the 1979 Nobel Prize
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Nobel Prize
+\end_layout
+
+\end_inset
+
+ with his high school classmate, Sheldon "I-don't-care-what-SU(2)-looks-like"
+ Glashow
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Glashow, Sheldon
+\end_layout
+
+\end_inset
+
+.
+ The third scholar to share the prize was Mohammad Abdus Salam
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Salam, Mohammad
+\end_layout
+
+\end_inset
+
+, who is Pakistani and grew up far away from the Bronx.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-90mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/alf_drinking.jpg
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Sir Steven is exceedingly exceptional at mathematics.
+ He finds math errors in other people's papers.
+ If his skill had been spelling, he would correct the dictionary.
+ His justified self-confidence is why I call him Alf
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Alf
+\end_layout
+
+\end_inset
+
+, which stands for Arrogant F---.
+ Someone might point out that the "l" in the acronym stands for nothing.
+ It is there just to piss him off.
+\end_layout
+
+\begin_layout Standard
+Alf is measurably smarter than I am.
+ I know that, he knows that.
+ Actually, he doesn't know that.
+ The ultra-conservative fringe physicists like me is not on his radar.
+ I am confident if he were to get to know me, he would not like me either.
+ I am sloppy with technical jargon to a fault.
+ Having not lived in the halls of elite institutions, I mispronounce names.
+ I use math errors as an exploratory process.
+ Pictures are central to my world view, a feature absent in much of his
+ work.
+\end_layout
+
+\begin_layout Standard
+Alf
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Alf
+\end_layout
+
+\end_inset
+
+ was a booster for the SSC
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Superconducting Super Collider
+\end_layout
+
+\end_inset
+
+.
+ The book "Dreams of a Final Theory
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+books!Dreams of a Final Theory
+\end_layout
+
+\end_inset
+
+" was part of the failed promotion process for the collider.
+ I read books with pen in hand to underline parts I like and to provide
+ a way back to revisit those fun insights.
+ This was the first and only book I felt I needed to read with a pen in
+ hand so I could mark where I disagreed with the author.
+ Every few pages there are notes scribbled in the margins.
+ If he said it, I found a way to disagree.
+\end_layout
+
+\begin_layout Standard
+I recall gripping my red pen and wondering why I was so angry at Alf? Science
+ is a collection of theories well-supported by experimental data.
+ We didn't have any issues with the theories or the scientific process.
+ Where we differed is what I call scientific beliefs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+scientific belief
+\end_layout
+
+\end_inset
+
+: these are the implications beyond the scope of the theory itself, beliefs
+ that create views of meaning in the Universe.
+ I now appreciate why scientists can totally not stand each other: it is
+ less the science, and more the extension and implications of the work that
+ leads to animated disagreements.
+ That lesson was worth the red ink.
+ I have chosen three margin notes for this blog.
+\end_layout
+
+\begin_layout Section*
+DNA
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+DNA|textbf
+\end_layout
+
+\end_inset
+
+ and Quantum Mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When physicists start talking about DNA
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+DNA
+\end_layout
+
+\end_inset
+
+, it is time to defend my turf.
+ Here were his comments about the double helix: Page 32:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/p32_DNA_and_QM.big.jpg
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I will not go into my sex is more important than mutations riff which was
+ the subject of another chapter.
+ Just because I am sloppy in physics doesn't mean I am sloppy in biology.
+ Actually, it does mean that because I use the same hardware.
+ The base I wrote in the margin is in error.
+ The ribose sugar connects to a nitrogen in the 5 member ring not the 6
+ member ring.
+ The point of the imprecise sketch was to get an estimate for the number
+ of electrons in one of our chromosomal sets of DNA
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+DNA
+\end_layout
+
+\end_inset
+
+.
+ Accord to my margin note, it is on the order of 10
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsuperscript{12}
+\end_layout
+
+\end_inset
+
+ electrons.
+ There are the protons and neutrons to account for also.
+\end_layout
+
+\begin_layout Standard
+Here is where Alf
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Alf
+\end_layout
+
+\end_inset
+
+ and I agree: There are laws of quantum mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics
+\end_layout
+
+\end_inset
+
+ that can be solved exactly for the hydrogen
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hydrogen
+\end_layout
+
+\end_inset
+
+ atom.
+ Those same laws can be solved approximately for helium
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+helium
+\end_layout
+
+\end_inset
+
+.
+ As we go to more complex atoms and molecules, the calculations become more
+ daunting.
+ The agreement at this point is spot on.
+\end_layout
+
+\begin_layout Standard
+Now we do a stretch, to a large enough computer.
+ I think we both agree such a machine is not going to be built ever.
+ This is where our beliefs differ.
+ He imagines that the take home message is that the standard model
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+standard model
+\end_layout
+
+\end_inset
+
+ is at the root of it all.
+ My belief is that when a calculation becomes this all-consuming, Nature
+ herself does not operate this way, that a new logic is born out of massive
+ recursion.
+ There will be a few, isolated simple systems where Schrödinger's equation
+ will come into play, but in general, the standard model is irrelevant to
+ a description of how DNA
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+DNA
+\end_layout
+
+\end_inset
+
+ works.
+\end_layout
+
+\begin_layout Section*
+Definitions of Beauty
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beauty|textbf
+\end_layout
+
+\end_inset
+
+, Love
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+love|textbf
+\end_layout
+
+\end_inset
+
+, and Fear
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+fear|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alf decides to dodge definitions of beauty, love, or fear.
+ Page 134:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/p134_defining_things.big.jpg
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That struck me as a cop out.
+ Definitions are the starting point for science.
+ It doesn't matter if the definition is universally accepted.
+ It does matter that you have a precise one, to keep the discussion focused.
+ Here are my three definitions.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{Beauty is simplicity with purpose that creates complexity.}
+\end_layout
+
+\end_inset
+
+ I like the tension between simplicity and complexity that gets mitigated
+ by purpose.
+ Here is a clay sculpture I did called "Beth
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+art!Beth
+\end_layout
+
+\end_inset
+
+".
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/beth.large.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is a simple nude.
+ I remember looking at the skin on her back move against her ribs.
+ I was disappointed that I was not going to be able to represent that aspect
+ of her form, too complicated for clay.
+ She was, and will remain for me, a beautiful representation of my species.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{Love is the creation and reflection of being.}
+\end_layout
+
+\end_inset
+
+ That covers both making love, and the look between mother and child.
+ It also excludes rocks loving water.
+ Sure, the two interact, but no love is involved.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{Fear is the destruction of self.}
+\end_layout
+
+\end_inset
+
+ Threats to self get me to run.
+ When I got mugged, one question on my mind was about weapons - take my
+ stuff, but I sure hope no one has a gun.
+ Thank goodness no one in the tense interaction had exercised their second
+ amendment rights to keep and bear arms as part of a well regulated militia
+ (the NRA
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+NRA
+\end_layout
+
+\end_inset
+
+ should point out regulation is part of the second amendment, no?).
+ I had read articles on model mugging, a program that teaches women how
+ to deal with such situations.
+ One approach is to scream loudly.
+ That was the technique I used: absolute, full volume shout out of the story
+ of what was going on at the moment: "They took my bag, with my glucose
+ meter and I am a diabetic..." When I saw the three run one way, I turned and
+ went the other direction.
+ It took a while to calm down, but the self was all there, and I even got
+ the bag back.
+ I guess my monologue created fear of being caught for them.
+\end_layout
+
+\begin_layout Standard
+Rereading the passage from the book, I noticed his comments about general
+ relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Quotation
+It is not important for the beauty of a theory that its equations should
+ have elegant solutions.
+ The equations of general relativity are notoriously difficult to solve
+ except in the simplest situations, but this does not detract from the beauty
+ of the theory itself.
+\end_layout
+
+\begin_layout Standard
+Half of general relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+ is beautiful, the pure geometry.
+ The stress-energy tensor is clucky.
+ The simplest, static solution is much uglier than it is usually marketed.
+ The Minkowski metric
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+metric!Minkowski
+\end_layout
+
+\end_inset
+
+ for empty spacetime is simple with the purpose of preserving the spacetime
+ interval.
+ That does lead to something complicated: all the detailed observations
+ of special relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+special relativity
+\end_layout
+
+\end_inset
+
+.
+ Take the first baby step away from empty spacetime in isotropic coordinates,
+ and here is what the Schwarzshild metric
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+metric!Schwarzshild
+\end_layout
+
+\end_inset
+
+ looks like:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/eq_1_schwarzshild_in_isotropic_coordinates.eps
+	width 14cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I always have to look this up in Misner
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Misner, Charles
+\end_layout
+
+\end_inset
+
+, Thorne
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Thorne, Kip
+\end_layout
+
+\end_inset
+
+, and Wheeler
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Wheeler, John
+\end_layout
+
+\end_inset
+
+, hidden in a question at the end of a chapter (p.
+ 840, exercise 31.7).
+ For me, this solution does detract from the beauty of general relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+.
+ A final theory should have manifestly beautiful equations and solutions.
+ Here is a claim I made about my unification equations in my second blog
+ here:
+\end_layout
+
+\begin_layout Quote
+I will stand next to this strong statement: the derivation and field equations
+ for the GEM unified standard model proposal are drop dead gorgeous.
+ That claim already applies as is to the Maxwell equations
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Maxwell!field equations
+\end_layout
+
+\end_inset
+
+, which are stunning.
+ I am inviting a few more beauties to the party.
+\end_layout
+
+\begin_layout Standard
+How about the solutions? One of them is comic.
+ The solution to the first GEM field equation
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM!field equations
+\end_layout
+
+\end_inset
+
+ would have been known by Pierre Simon Laplace
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Laplace, Pierre
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/eq_2_GEM_1.eps
+	width 20mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Most of this stuff was fresh for the Frenchman.
+ Ben Franklin
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Franklin, Ben
+\end_layout
+
+\end_inset
+
+ did his experiments in the mid 1700's.
+ Henry Cavendish
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Cavendish, Henry
+\end_layout
+
+\end_inset
+
+ determine the value of G in 1798.
+ http://en.wikipedia.org/wiki/Cavendish_experiment Planck's
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Planck!constant
+\end_layout
+
+\end_inset
+
+ constant would have to wait.
+ Still, Laplace could solve the equation that bears his name today.
+ Take Newton's force for gravity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Newton!gravitational force law
+\end_layout
+
+\end_inset
+
+ written as a potential and subtract Gauss's law
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Gauss's law
+\end_layout
+
+\end_inset
+
+ in potential form.
+ Get the B as in Bingo.
+\end_layout
+
+\begin_layout Standard
+Here are the other three GEM field equations
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM!field equations
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/eq_2_GEM_2-4.eps
+	width 50mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Snarky puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle!potential solutions
+\end_layout
+
+\end_inset
+
+: find the answers to these three equations.
+ Look to for inspiration, sprinkling in minus signs were necessary.
+ Bingo, bingo.
+\end_layout
+
+\begin_layout Standard
+To my eye, the solutions are beautiful, nice variations on a 1/R potential.
+ One up on general relativity.
+ I don't get to say that everyday :-)
+\end_layout
+
+\begin_layout Section*
+The Future of Quantum Mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alf is sure not much can change for quantum mechanics.
+ Page 88-89
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/p88-9_QM_unchanged.big.jpg
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This guy is measurably more creative in physics than nearly everyone else.
+ Does he have a blind side? My guess is that visually, he is a moron.
+ There was not a single image in the book.
+ It is common for people to get Ph.D.'s and not be able to draw.
+ This is a horrible waste of mental resources.
+ The back of the brain will not be able to do anything but think visually.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/steven_weinberg/drawing_on_the_right_side_of_the_brain.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+People can learn to think visually at any age.
+ Please note I did not say draw.
+ It is a common misconception that this is a hand thing.
+ I highly recommend "
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+books!Drawing on the Right Side of the Brain
+\end_layout
+
+\end_inset
+
+Drawing on the Right Side of the Brain" by Betty Edwards
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Edwards, Betty
+\end_layout
+
+\end_inset
+
+ This is how to engage the back of your brain to see what is there.
+ While it may have been true that visual thinking was not important in Alf's
+ time in quantum field theory, I think the future will demand a visualization
+ of every equation in graduate level quantum field theory
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum field theory
+\end_layout
+
+\end_inset
+
+ books.
+ That would be a huge change - one could even share results with people
+ not versed in the arcane arts of differential calculus (I do show my wife
+ a few of the animations my work generates).
+ The next generation of animated books would have to be computer based.
+\end_layout
+
+\begin_layout Standard
+Much change to look forward to, unless you buy into Alf's view.
+\end_layout
+
+\begin_layout Standard
+I do value my negative pseudo-relationship with Weinberg
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Weinberg, Steven
+\end_layout
+
+\end_inset
+
+.
+ The disagreements drove me to think, and thinking is good.
+ Thanks Steven, all the best.
+\end_layout
+
+\begin_layout Chapter
+Justifying the Love for the Strong Equivalence Principle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-70mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/Pippa_Middleton_Bridesmaids_Dress.jpg
+	width 50mm
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Pippa Middleton
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+ is a stately beauty queen of an idea.
+ In the simplest of dresses, she refuses to dance with any theory except
+ general relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+.
+ The mundane reason for mass is beyond her concern.
+ My call own effort at unifying the symmetries found in the standard model
+ with gravity "GEM
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+" for Gravity and EM, not to be confused with gravitomagnetism which sometimes
+ goes by the same acronym.
+ A duality between metric and 4-potential theory extends a hand between
+ a metric explanation of gravity and Newton's scalar theory moving up to
+ a 4-mansion.
+ An obligatory cancellation in the GEM Lagrangian provides a field theory
+ justification for the strong equivalence principle.
+ If the Higgs boson is found, this house of cards collapses.
+ If the Higgs is ruled out over the reasonable range of masses to 95% confidence
+, join the evolution.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{Begin with Einstein's}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Einstein, Albert
+\end_layout
+
+\end_inset
+
+ statement of the weak equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!weak
+\end_layout
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Quote
+A little reflection will show that the law of the equality of the inertial
+ and gravitational mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!gravitational
+\end_layout
+
+\end_inset
+
+ is equivalent to the assertion that the acceleration imparted to a body
+ by a gravitational field is independent of the nature of the body.
+ For Newton
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Newton!gravitational force law
+\end_layout
+
+\end_inset
+
+'s equation of motion in a gravitational field, written out in full, it
+ is:
+\end_layout
+
+\begin_layout Quote
+It is only when there is numerical equality between the inertial and gravitation
+al mass that the acceleration is independent of the nature of the body.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{5mm} 
+\backslash
+vspace{-60mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/rocket.jpg
+	width 40mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As an Accounting Jerk, I don't cut anyone slack, not even The Most Revered
+ One.
+ Newton's gravitational force law written out in full includes the rocket
+ science term as an effect of gravity (perhaps Newton never wrote that one
+ out either, which would be cool).
+ I am not interested in a great approximation of the truth.
+\end_layout
+
+\begin_layout Standard
+The systematic dismissal of the rocket science effect of gravity reminds
+ me of the collapse of the housing market
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+collapse of the housing market
+\end_layout
+
+\end_inset
+
+.
+ Wall Street was given the keys to the money of mortgages.
+ The quants, many trained as physicists, constructed models of how the markets
+ would change, and how the changes in those changes would change.
+ They understood it so well, they sold insurance whose market value was
+ claimed to involve more money than the combination of the stock and mutual
+ fund markets.
+ They did forget to model what would happen if the value of real estate
+ dropped, because of course that never happens.
+\end_layout
+
+\begin_layout Standard
+Here is Newton's gravitational force law written out in full:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq2_newt_complete.eps
+	width 6.5in
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equations!inertial/gravitational masses
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gravity is broken in a variety of ways (enjoy the PHD Comics version if
+ you haven't already).
+ Research is concentrated on stuffing the ballot box, adding to the causes
+ of gravity.
+ I want to recount all the votes in the state, which worked in Minnesota
+ but was blocked by the good brother in Florida.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/Equivalence_principle/ton.jpg
+	width 50mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The first tests of the weak equivalence principle were done by Galileo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Galilei, Galileo
+\end_layout
+
+\end_inset
+
+, rolling balls down inclined plane (caveat: I haven't had the time to check
+ if he rolled balls made of different materials down the v-shaped planes.
+ If he did do that sort of thing, wood versus glass say, then that would
+ constitute the first equivalence test.
+ Please comment if you know relevant details and I will edit the post).
+ Everything obeys the same gravitational law.
+ Proving this point requires the scientific method.
+ People believe heavier things will fall the slightest bit faster than lighter
+ things.
+ That gut feeling is based on merging aerodynamic resistance with gravity
+ to make a theory of falling.
+ The weak equivalence principle is easy to get along with, just end up with
+ a metric that is a solution that uses only a mass M in the theory.
+ Do not junk up the equations with terms for bosons, fermions, or chirality.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/Equivalence_principle/guv_ep.jpg
+	width 50mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Here is a statement of the strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Quote
+The strong equivalence principle suggests that gravity is entirely geometrical
+ by nature (that is, the metric alone determines the effect of gravity)
+ and does not have any extra fields associated with it.
+ If an observer measures a patch of space to be flat, then the strong equivalenc
+e principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+ suggests that it is absolutely equivalent to any other patch of flat space
+ elsewhere in the universe.
+ Einstein's theory of general relativity (including the cosmological constant)
+ is thought to be the only theory of gravity that satisfies the strong equivalen
+ce principle.
+ A number of alternative theories, such as [scalar-tensor] Brans-Dicke
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Brans-Dicke
+\end_layout
+
+\end_inset
+
+ theory, satisfy only the Einstein [weak] equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!weak
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+General relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+ has the minimalist pole position: no rank 2 field theory can be simpler.
+ The GEM
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+ work is trying to get into this exclusive club by working a floor below
+ as a rank 1 field theory.
+ I have shown how the exponential metric is a solution to the hypercomplex
+ gravity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex!gravity
+\end_layout
+
+\end_inset
+
+ field equations in an earlier blog.
+ Rosen
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Rosen, N.
+\end_layout
+
+\end_inset
+
+ developed a theory that also has the same metric.
+ Rosen's work introduces a flat background metric.
+ The extra field breaks the strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+.
+ It also provides a place to store energy and momentum, leading to a prediction
+ of dipole gravity wave emissions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gravity!waves
+\end_layout
+
+\end_inset
+
+.
+ That prediction has not been confirmed in the analysis of gravity wave
+ energy loss in binary pulsars
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+binary pulsars
+\end_layout
+
+\end_inset
+
+, thus invalidating Rosen's efforts.
+ The problem with dipole gravity waves is a common killer for alternatives
+ to general relativity.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/Equivalence_principle/guv_duality.jpg
+	width 50mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+There is only one metric in the hypercomplex gravity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex!gravity
+\end_layout
+
+\end_inset
+
+ work.
+ Using the magic math of duality
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+duality
+\end_layout
+
+\end_inset
+
+, I have shown a 4-potential solution to the gravitational Gauss's law
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Gauss's law
+\end_layout
+
+\end_inset
+
+ field equation is identical to that using the exponential metric
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+metric!exponential
+\end_layout
+
+\end_inset
+
+.
+ The duality
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+duality
+\end_layout
+
+\end_inset
+
+ forms a bridge to Newton
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Newton!gravitational force law
+\end_layout
+
+\end_inset
+
+ that gets light bending around the Sun half right.
+ Partial duality is like being partially pregnant.
+ Newton's theory must be expanded from a scalar theory to a 4-vector to
+ be dual to a metric approach for light bending experiments.
+ By working on a different rank than general relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+, GEM
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+ has a chance to play nicely with the strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section*
+The Particles
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+particles|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{There are two particles}
+\end_layout
+
+\end_inset
+
+ that may play a critical role with mass, but neither has been seen.
+ The first is the graviton.
+ The graviton is massless, so zips along at the speed of light.
+ It cannot be spin 0 because light bends around the Sun.
+ the simplest case that would mean like charges attract is spin 2.
+\end_layout
+
+\begin_layout Standard
+The standard model
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+standard model
+\end_layout
+
+\end_inset
+
+ as originally conceived had only 
+\emph on
+massless
+\emph default
+ particles.
+ That is in violent disagreement with observation.
+ The symmetries had to be preserved while bringing in mass.
+ The gang of six had the same idea, a spin 0 field, later to be known as
+ the Higgs boson
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!boson
+\end_layout
+
+\end_inset
+
+.
+ Nature may have a more complicated collection of particles up her sleeve,
+ but so far, no cards have appeared (I may have to edit this statement at
+ a later date).
+ The first job of the Higgs is to provide mass to the particles involved
+ with the weak force, the W+, W-, and the Z.
+ Perhaps using a Yukawa potential
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Yukawa potential
+\end_layout
+
+\end_inset
+
+, the Higgs could provide mass to a long list of fermions.
+ If no Higgs is found, all bets are off.
+ 
+\end_layout
+
+\begin_layout Section*
+Seeing into Lagrangians
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lagrangian|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A Lagrangian is every way energy can be traded inside of a box.
+ Here is a list of things to look for in a Lagrangian dealing with mass:
+ The home of gravitational mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!gravitational
+\end_layout
+
+\end_inset
+
+.
+ The home of inertial mass.
+ The reason the equivalence principle is necessary.
+ Why is there mass? Two Lagrangians will be looked at with this list in
+ mind: general relativity and GEM.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{Einstein guessed}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Einstein, Albert
+\end_layout
+
+\end_inset
+
+at his field equations.
+ Hilbert
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Hilbert, David
+\end_layout
+
+\end_inset
+
+ derived the field equations from the Lagrangian
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lagrangian!Hilbert
+\end_layout
+
+\end_inset
+
+.
+ Here is Hilbert's starting point:
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-70mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/Equivalence_principle/hilbert.jpg
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq3_L_GR.eps
+	width 2.5in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I could say this was elegant, but that is only a half truth.
+ The Ricci scalar
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ricci scalar
+\end_layout
+
+\end_inset
+
+ R is elegant.
+ One could spend an academic career studying the Riemann curvature tensor
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Riemann curvature tensor
+\end_layout
+
+\end_inset
+
+, whose contraction of a contraction is the Ricci scalar.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ricci scalar
+\end_layout
+
+\end_inset
+
+ What happens after a vector loops around spacetime only to come back home?
+ That is what the Riemann curvature tensor reveals.
+\end_layout
+
+\begin_layout Standard
+The other term for matter fields is not so elegant.
+ There is far more freedom to do as one pleases: simple (a cloud of non-interact
+ing dust) or complicated (anything else).
+ The Riemann curvature tensor
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Riemann curvature tensor
+\end_layout
+
+\end_inset
+
+ is complex due to the intricate rules of its math machinery.
+ The paucity of guidelines for the matter Lagrangian is a greater challenge.
+ The mystery black box of general relativity is the matter term.
+\end_layout
+
+\begin_layout Standard
+Let's pick apart this two letter Lagrangian
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lagrangian!Hilbert
+\end_layout
+
+\end_inset
+
+.
+ The gravitational mass goes into the 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ricci!scalar
+\end_layout
+
+\end_inset
+
+Ricci scalar.
+ In a vacuum
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+vacuum
+\end_layout
+
+\end_inset
+
+, the curvature
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+curvature
+\end_layout
+
+\end_inset
+
+ of spacetime all flows from the Ricci scalar.
+ The inertial mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!inertial
+\end_layout
+
+\end_inset
+
+ is somewhere in the matter Lagrangian
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lagrangian!matter
+\end_layout
+
+\end_inset
+
+.
+ It is straightforward to justify the strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+strong equivalence principle
+\end_layout
+
+\end_inset
+
+ in the vacuum since the only player on the stage is the Ricci scalar.
+ With the matter contribution, the story may get more complicated.
+ To be honest, I don't have a deep enough training in general relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+ to know if there are built in safeguards to the matter Lagrangian
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lagrangian!matter
+\end_layout
+
+\end_inset
+
+ to assure consistency with the strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+.
+ I bet the only matter Lagrangians
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lagrangians!matter
+\end_layout
+
+\end_inset
+
+ that get published are consistent, but how about pathological cases? 
+\end_layout
+
+\begin_layout Standard
+General relativity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+ is 
+\emph on
+silent
+\emph default
+ as to why anything has mass.
+ GR is not a player in the Higgs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!boson
+\end_layout
+
+\end_inset
+
+ derby.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{Here is the GEM Lagrangian}
+\end_layout
+
+\end_inset
+
+:
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lagrangian!GEM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq4_L_GEM
+	width 4in
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equation!GEM!Lagrangian
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The gravitational mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!gravitational
+\end_layout
+
+\end_inset
+
+ is in the terms with the hypercomplex products
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex!products
+\end_layout
+
+\end_inset
+
+, indicated by the boxtimes symbol.
+ The hypercomplex field strength
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex!field strength
+\end_layout
+
+\end_inset
+
+ depends on this gauge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gauge
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq5_gauge.eps
+	width 4in
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equation!GEM!gauge
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The inertial mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!inertial
+\end_layout
+
+\end_inset
+
+ hangs out with the quaternion products
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternion!products
+\end_layout
+
+\end_inset
+
+.
+ The quaternion field strength
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternion!field strength
+\end_layout
+
+\end_inset
+
+ has exactly the same gauge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gauge
+\end_layout
+
+\end_inset
+
+.
+ The exact cancellation of the gauge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gauge
+\end_layout
+
+\end_inset
+
+ terms in the hypercomplex and quaternion field strengths
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternion!field strength
+\end_layout
+
+\end_inset
+
+ means that the most pathological choice of a potential
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+potential
+\end_layout
+
+\end_inset
+
+ or byzantine manifold to take derivatives will not break the equivalence
+ principle, in both senses of the phrase.
+\end_layout
+
+\begin_layout Section*
+Musing about Mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So can we finally stand on a rock solid reason for mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass
+\end_layout
+
+\end_inset
+
+? Sorry, but I have been trained to underplay a hand.
+ The most important message for a general reader to take home is the GEM
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+ work provides an utterly different reason for mass that what is on the
+ market today.
+ The Higgs mechanism
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!mechanism
+\end_layout
+
+\end_inset
+
+ is a solution that plays nicely with all other work on the standard model
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+standard model
+\end_layout
+
+\end_inset
+
+.
+ The GEM
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+ work plays great with Maxwell
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Maxwell
+\end_layout
+
+\end_inset
+
+, the good symmetric twin, but flips the bird to GR
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+general relativity
+\end_layout
+
+\end_inset
+
+ and keeps the symmetries but drops the tensor products found in the standard
+ standard model.
+ Oops.
+\end_layout
+
+\begin_layout Standard
+The ice is thin here, but I will give it a try.
+ Most particles in the Universe
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Universe
+\end_layout
+
+\end_inset
+
+ have no mass.
+ By most, I mean look at ten billion particles chosen at random, and only
+ one will have mass.
+ The Universe is not structured randomly: stuff with mass congregates in
+ planets, stars, and galaxies.
+ The massless do not have a story to tell.
+ For them, a change in time is the same as a change in space.
+\end_layout
+
+\begin_layout Standard
+Contrast that with particles with mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass
+\end_layout
+
+\end_inset
+
+.
+ They can tell a story.
+ If the relativistic velocity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+relativistic velocity
+\end_layout
+
+\end_inset
+
+ between two particles is near unity, the story must be brief.
+ For the particles still sitting on Earth, the shared stories have lasted
+ at least 4 billion years.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Photos/speed_of_light.jpeg
+	width 60mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+art!The Speed of Light According to René Magritte
+\end_layout
+
+\end_inset
+
+I get this message every day with my gluten-free waffles and maple syrup.
+ From a math wonk view, the gauge term is zero for the massless, and not
+ zero for the massive.
+ This is the edge of what I know.
+ 
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle!pathological potentials
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Work with a pathological potential:
+\end_layout
+
+\begin_layout Standard
+Calculate:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/snarky_puzzle_ep.eps
+	width 60mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is not as bad as it appears: do it one time, the rest are variations
+ in the signs of different terms.
+ Take the group U(1)
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!U(1)
+\end_layout
+
+\end_inset
+
+ pointed in the direction of (1, 2, 3, 4) and feed that group into these
+ eight quaternion polynomials.
+ There should be one obvious property of the ones where the gauge happens
+ to be equal to zero.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

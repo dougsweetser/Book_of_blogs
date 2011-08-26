@@ -26,7 +26,7 @@
 }
   
 \end_preamble
-\options afivepaper
+\options blurb
 \use_default_options true
 \begin_modules
 logicalmkup
@@ -246,39 +246,16 @@ With the information provided so far, I don't think this story can make
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/figure_3_with_diagrams.png
-	width 1000mm
+	width 160mm
 
 \end_inset
 
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
+\begin_layout Standard
 
 \end_layout
 
@@ -327,39 +304,16 @@ In quantum mechanics today, I feel we must live with the Turn.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_choice_coherent.eps
-	width 1000mm
+	width 160mm
 
 \end_inset
 
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
+\begin_layout Standard
 
 \end_layout
 
