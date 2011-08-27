@@ -101,6 +101,16 @@ LatexCommand tableofcontents
 
 \begin_layout Chapter
 Visualizing Quantum Interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mecahnics!interference|textbf
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -116,14 +126,53 @@ Quantum interference is really, really, really well-supported by data, data,
 \end_layout
 
 \begin_layout Standard
-In this blog, John Wheeler's delayed choice thought experiment will be explained.
+In this blog, John Wheeler
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Wheeler, John
+\end_layout
+
+\end_inset
+
+'s delayed-choice
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ thought experiment will be explained.
  The idea briefly is to ask if a single photon goes down a specific path
  or if the solitary photon goes down two paths so it can interfere with
  itself.
- In 2006, the thought experiment was made real by Alain Aspect and his collabora
-tors.
+ In 2006, the thought experiment was made real by Alain Aspect
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Aspect, Alain
+\end_layout
+
+\end_inset
+
+ and his collaborators.
  The paper provides the simple equations I was able to use to make quaternion
- animations of the process.
+ animations
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions!animations
+\end_layout
+
+\end_inset
+
+ of the process.
  The reader will be able to see animations of quantum interference for the
  first time.
 \end_layout
@@ -145,7 +194,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_choice_one_fig.eps
-	width 160mm
+	width 100mm
 
 \end_inset
 
@@ -162,38 +211,133 @@ status open
 \end_layout
 
 \begin_layout Standard
-The intensity of the source is adjusted so that it emits one photon at a
- time.
- The photon comes to a beam splitter.
+The intensity of the source is adjusted so that it emits one photon
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon
+\end_layout
+
+\end_inset
+
+ at a time.
+ The photon comes to a beam splitter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitter
+\end_layout
+
+\end_inset
+
+.
  The solitary photon can either stay down, or turn and go to the up path
  or perhaps the silent solitary one decides to go on both paths as part
- of a plan to create an interference pattern (photons are devilishly clever).
+ of a plan to create an interference pattern
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference pattern
+\end_layout
+
+\end_inset
+
+ (photons are devilishly clever).
  At the detector box, the experimentalist makes a choice: see if the photon
  took the down path, or the up path, or both paths as would be needed to
  see an interference pattern.
  The decision about what type of measurement to do is delayed until after
  the photon has passed by the beam splitter (technically, a spacelike separation
  is required).
- Wheeler argued that the odd logic of quantum mechanics demands such schizophren
-ic behavior.
+ Wheeler argued that the odd logic of quantum mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics
+\end_layout
+
+\end_inset
+
+ demands such schizophrenic behavior.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex Marginnote
-status collapsed
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
-Side bar: The single photon red herring Intensity has never been an issue
- in quantum mechanics since the day Einstein explained the photo electric
- effect.
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/visualize_qm_interference/red-herring.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Marginnote
+status open
+
+\begin_layout Plain Layout
+Side bar: The single photon red herring
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+red herring
+\end_layout
+
+\end_inset
+
+ Intensity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon!intensity
+\end_layout
+
+\end_inset
+
+ has never been an issue in quantum mechanics since the day Einstein explained
+ the photo electric effect.
  People will nod along with the statement that intensity is not relevant
  to quantum processes.
  The consequence of the statement is that lowering the intensity to one
  photon a day does not change an effect except to slow the rate the experimental
 ist collects data.
- Water molecules hold hands using hydrogen bonds, so water waves are changed
- by intensity.
+ Water molecules hold hands using hydrogen bonds
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hydrogen bonds
+\end_layout
+
+\end_inset
+
+, so water waves are changed by intensity.
  Photons are isolationists, whether as solitary skaters in this experiment,
  or if sent as a swarm of a billion a second.
  The photons never hold hands or work together.
@@ -210,25 +354,82 @@ ist collects data.
 \end_layout
 
 \begin_layout Standard
-Wheeler's thought experiment was made real by Alain Aspect and his collaborators.
+Wheeler
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Wheeler, John
+\end_layout
+
+\end_inset
+
+'s thought experiment was made real by Alain Aspect
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Aspect, Alian
+\end_layout
+
+\end_inset
+
+ and his collaborators.
  The paper was fun to read and reread.
  I think the experimentalists got it right.
  Here is the entire abstract: 
 \end_layout
 
 \begin_layout Verse
-ABSTRACT: The quantum "mystery which cannot go away" (in Feynman's words)
- of wave-particle duality is illustrated in a striking way by Wheeler's
- delayed-choice Gedanken Experiment.
+ABSTRACT: The quantum "mystery which cannot go away" (in Feynman
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Feynman, Richard
+\end_layout
+
+\end_inset
+
+'s words) of wave-particle duality
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+wave-particle duality
+\end_layout
+
+\end_inset
+
+ is illustrated in a striking way by Wheeler's delayed-choice
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ Gedanken Experiment.
  In this experiment, the configuration of a two-path interferometer is chosen
  after a single-photon pulse has entered it: either the interferometer is
  closed (i.e.
  the two paths are recombined) and the interference is observed, or the
  interferometer remains open and the path followed by the photon is measured.
  We report an almost ideal realization of that Gedanken Experiment, where
- the light pulses are true single photons, allowing unambiguous which-way
- measurements, and the interferometer, which has two spatially separated
- paths, produces high visibility interference.
+ the light pulses are true single photons
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon!single
+\end_layout
+
+\end_inset
+
+, allowing unambiguous which-way measurements, and the interferometer, which
+ has two spatially separated paths, produces high visibility interference.
  The choice between measuring either the 'open' or 'closed' configuration
  is made by a quantum random number generator, and is space-like separated
  -- in the relativistic sense -- from the entering of the photon into the
@@ -248,7 +449,7 @@ With the information provided so far, I don't think this story can make
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/figure_3_with_diagrams.png
-	width 160mm
+	width 10cm
 
 \end_inset
 
@@ -261,21 +462,58 @@ With the information provided so far, I don't think this story can make
 
 \begin_layout Standard
 This situation reminds me of something I learned about illusion in the film
- "The Prestige".
+ "The Prestige
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+movies!The Prestige
+\end_layout
+
+\end_inset
+
+".
  That was a great film by the way, one that has to be watched two or three
  times before you get it.
  An illusion has three parts: 
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Pledge
+\end_layout
+
+\end_inset
+
 The Pledge
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Turn
+\end_layout
+
+\end_inset
+
 The Turn
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Prestige
+\end_layout
+
+\end_inset
+
 The Prestige 
 \end_layout
 
@@ -291,12 +529,51 @@ The Pledge starts out the story with something ordinary.
 \end_layout
 
 \begin_layout Standard
-In quantum mechanics today, I feel we must live with the Turn.
+In quantum mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics
+\end_layout
+
+\end_inset
+
+ today, I feel we must live with the Turn
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+The Turn
+\end_layout
+
+\end_inset
+
+.
  People who study and know some of the vital experiments in quantum oddness
- like the delayed choice experiment will tell you that is the way, accept
- that you cannot understand.
+ like the delayed-choice experiment
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ will tell you that is the way, accept that you cannot understand.
  A small circle of fringe folks will holler about their own approach, one
- which shows no understanding of the Pledge or Turn of quantum mechanics.
+ which shows no understanding of the Pledge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Pledge
+\end_layout
+
+\end_inset
+
+ or Turn of quantum mechanics.
  A real illusionist would know exactly where the answer was placed.
  I put the answer in plain English, but surrounded it with words that would
  make the reader focus on a different subject.
@@ -306,7 +583,7 @@ In quantum mechanics today, I feel we must live with the Turn.
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_choice_coherent.eps
-	width 160mm
+	width 8cm
 
 \end_inset
 
@@ -318,18 +595,82 @@ In quantum mechanics today, I feel we must live with the Turn.
 \end_layout
 
 \begin_layout Standard
-I mentioned the source was coherent, but only in the context of intensity.
+I mentioned the source was coherent, but only in the context of intensity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon!intensity
+\end_layout
+
+\end_inset
+
+.
  The math of the source is treated as ordinary, even if it isn't.
 \end_layout
 
 \begin_layout Standard
-The up/down path detector is another herring, albeit more tempting given
- the name of the thought experiment.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/visualize_qm_interference/red-herring.png
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The up/down path detector is another herring
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+red herring
+\end_layout
+
+\end_inset
+
+, albeit more tempting given the name of the thought experiment.
  No matter what the source is, we can detect if it went on one path or another
- after a beam splitter.
+ after a beam splitter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitter
+\end_layout
+
+\end_inset
+
+.
  That is not a mystery.
  What needs to be understood is the interference for a non-interacting particle
- of a coherent source.
+ of a coherent source
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+coherent source
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -339,25 +680,189 @@ The source is so not random.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_1_psi_cos_sin.eps
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Take the norm in order to calculate the probabilities of being in port 1
  or 2:
 \end_layout
 
 \begin_layout Standard
-This is unity as it must be.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_2_psi2.eps
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is unity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+unity
+\end_layout
+
+\end_inset
+
+ as it must be.
  Observers, sitting as they do at the spatial center of their own Universe
  (0, 0, 0), get probabilities of seeing an event from the source by taking
  the norm.
 \end_layout
 
 \begin_layout Standard
-Let's use the quaternion animation software to look at the amplitude of
- the wave function as is, equation 1, even though no one can see it.
+Let's use the quaternion animation
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions!animation
+\end_layout
+
+\end_inset
+
+ software to look at the amplitude of the wave function
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+wave function
+\end_layout
+
+\end_inset
+
+ as is, equation 1, even though no one can see it.
 \end_layout
 
 \begin_layout Standard
-The animation has the symmetry U(1), a unit circle in the complex plane
- of Right-Left+time.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/1.amplitude.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The animation has the symmetry U(1)
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!U(1)
+\end_layout
+
+\end_inset
+
+, a unit circle in the complex plane of Right-Left+time.
  
 \end_layout
 
@@ -371,6 +876,48 @@ The animation reveals a problem with the visualization.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/2.amplitude_w_shift.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Two walls collide.
  Is it possible to follow one value of the phase? Again we are not being
  physical because individual photons cannot be marked in red, but the software
@@ -378,8 +925,69 @@ Two walls collide.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/3.amplitude_marked.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Why are there so many points in this animation? Because every point in spacetime
- can be mapped to this unit circle.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacetime
+\end_layout
+
+\end_inset
+
+ can be mapped to this unit circle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+unit circle
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -389,141 +997,10 @@ Label the two paths A and B.
 \end_layout
 
 \begin_layout Standard
-A* B - interference (3a) B* A - interference (3a)
-\end_layout
-
-\begin_layout Standard
-A* A - no interference (3b) B* B - no interference (3b)
-\end_layout
-
-\begin_layout Standard
-We can see the lack of ambiguity for the no interference case.
- The first two are going to be more complicated.
- For a fixed value of phi and omega = 1, vary t and plot:
-\end_layout
-
-\begin_layout Standard
-This is what quantum interference can look like: the combination of three
- complex plane images: a straight line, a circle, and something sinusoidal.
- No wonder this is tricky! (one technical detail: for the way my software
- is designed, I had to swap the roles of x and y, as you can tell since
- the circle is now in the ty plane instead of the tx plane.
- A bigger and smoother version of this animation is available).
-\end_layout
-
-\begin_layout Standard
-I am not going to market these images as trivial to understand as that would
- mock any earlier efforts to have a visual interpretation of quantum interferenc
-e.
- Instead I can point out why these images are a challenge.
- Time is a scalar, space is a vector.
- In quantum mechanics, the scalar is not a dull, monotonically increasing
- function.
- Instead, time toys with space, but mapping it back into the same space,
- thus hiding its hand.
- I needed to take what was only happening between time and one dimension
- of space and use another dimension to get a better handle on what was happening.
-\end_layout
-
-\begin_layout Standard
-"What does one plus equal?" That is good English, math gibberish.
- "Did the photon go on the up or the down path?" While the question is perfect
- English, its is a poorly formed question for quantum interference.
- Poorly formed questions can never be answered.
- "Was there a photon at this location and at this time?" is a well-formed
- question.
- If you know exactly when a photon is seen, then a second prior to being
- detected you can make a statement about where it was, no matter what detector
- was used.
- Say the beam splitter was 2 light seconds away from the detector.
- Then there is a 50-50 chance the photon was at the half-way point of the
- up or the down path.
- If the down detector saw the photon, then the photon was at the half-way
- point in the down path.
- Notice I said both time and space locations.
- The photon was not in some arbitrary place along the down path a light
- second before detection.
-\end_layout
-
-\begin_layout Standard
-What can be said if the interference detector was used? If the interference
- saw the maximal constructive interference, then one light second before
- detection, the photon was a the half-way point between either up or down.
- If the interference was at the maximal destructive point, then there was
- definitely no photon at the halfway point in either branch.
- For interference value between these two extremes, it sets the odds on
- a photon being at the halfway point a light second before being detected.
-\end_layout
-
-\begin_layout Standard
-The coherent source is exceptionally well organized.
- It is the exquisite organization of the source that one sees in the interferenc
-e pattern.
- Let messengers from the neat source house of particles travel down two
- paths of different lengths, and the resulting pattern looks like interference.
- The emissaries have no need to interact with each other, the proverbial
- bump into each other.
-\end_layout
-
-\begin_layout Standard
-From my perspective, the height of absurdity in theoretical physics today
- are those trying to work without time.
- No doubt they think the delayed choice experiment is on their side.
- The event of the beam splitting and the choosing the type of detector is
- spacelike separated (a feat that was technically a great challenge to accomplis
-h).
- A physics illusionist would point out that spacelike separation is a calculatio
-n done on two events in spacetime.
-\end_layout
-
-\begin_layout Standard
-The results look rational, the visual part of my brain is happy.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace{3mm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq2_newt_complete.eps
-	width 6.5in
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace{3mm}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float marginfigure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -540,40 +1017,12 @@ vspace{-30mm}
 
 
 \begin_inset Graphics
-	filename /Users/dsweetser/Dropbox/Science20/Equivalence_principle/ton.jpg
-	width 50mm
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_interference.png
+	width 5cm
 
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-T
-\end_layout
-
-\begin_layout Section*
-The Subheading
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Particles|textbf
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Snarky Puzzle
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Snarky Puzzle
 \end_layout
 
 \end_inset
@@ -582,8 +1031,457 @@ Snarky Puzzle
 \end_layout
 
 \begin_layout Standard
-Snarky puzzle: Supersymmetry has superpartners to build super friends between
- particles that take different amounts of time to jog around a circle.
+A* B - interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference
+\end_layout
+
+\end_inset
+
+ (3a) B* A - interference (3a)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_4_interference.eps
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_5_interference.eps
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-5mm}
+\backslash
+vspace{-25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_up_or_down.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+A* A - no interference (3b) B* B - no interference (3b)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_6_=1.eps
+	width 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_7_=1.eps
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can see the lack of ambiguity for the no interference case.
+ The first two are going to be more complicated.
+ For a fixed value of phi and omega = 1, vary t and plot:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/4.interference.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is what quantum interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics!interference
+\end_layout
+
+\end_inset
+
+ can look like: the combination of three complex plane images: a straight
+ line, a circle, and something sinusoidal.
+ No wonder this is tricky! (one technical detail: for the way my software
+ is designed, I had to swap the roles of x and y, as you can tell since
+ the circle is now in the ty plane instead of the tx plane.
+ A bigger and smoother version of this animation is available).
+\end_layout
+
+\begin_layout Standard
+I am not going to market these images as trivial to understand as that would
+ mock any earlier efforts to have a visual interpretation of 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mecahnics!interference
+\end_layout
+
+\end_inset
+
+quantum interference.
+ Instead I can point out why these images are a challenge.
+ Time is a scalar, space is a vector.
+ In quantum mechanics, the scalar is not a dull, monotonically increasing
+ function.
+ Instead, time toys with space, but mapping it back into the same space,
+ thus hiding its hand.
+ I needed to take what was only happening between time and one dimension
+ of space and use another dimension to get a better handle on what was happening.
+\end_layout
+
+\begin_layout Standard
+"What does one plus equal?" That is good English, math gibberish.
+ "Did the photon go on the up or the down path?" While the question is perfect
+ English, its is a poorly formed question for quantum interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics!interference
+\end_layout
+
+\end_inset
+
+.
+ Poorly formed questions can never be answered.
+ "Was there a photon at this location and at this time?" is a well-formed
+ question.
+ If you know exactly when a photon is seen, then a second prior to being
+ detected you can make a statement about where it was, no matter what detector
+ was used.
+ Say the beam splitter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitter
+\end_layout
+
+\end_inset
+
+ was 2 light seconds away from the detector.
+ Then there is a 50-50 chance the photon was at the half-way point of the
+ up or the down path.
+ If the down detector saw the photon, then the photon was at the half-way
+ point in the down path.
+ Notice I said both time and space locations.
+ The photon was not in some arbitrary place along the down path a light
+ second before detection.
+\end_layout
+
+\begin_layout Standard
+What can be said if the interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference
+\end_layout
+
+\end_inset
+
+ detector was used? If the interference saw the maximal constructive interferenc
+e
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference!constructive
+\end_layout
+
+\end_inset
+
+, then one light second before detection, the photon was a the half-way
+ point between either up or down.
+ If the interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference!destructive
+\end_layout
+
+\end_inset
+
+ was at the maximal destructive point, then there was definitely no photon
+ at the halfway point in either branch.
+ For interference value between these two extremes, it sets the odds on
+ a photon being at the halfway point a light second before being detected.
+\end_layout
+
+\begin_layout Standard
+The coherent source
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+coherent source
+\end_layout
+
+\end_inset
+
+ is 
+\emph on
+exceptionally well-organized
+\emph default
+.
+ It is the exquisite organization of the source that one sees in the interferenc
+e pattern.
+ Let messengers from the neat source house of particles travel down two
+ paths of different lengths, and the resulting pattern looks like interference.
+ The emissaries have no need to interact with each other, the proverbial
+ bump into each other.
+\end_layout
+
+\begin_layout Standard
+From my perspective, the height of absurdity in theoretical physics today
+ are those trying to work without time.
+ No doubt they think the delayed-choice experiment
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ is on their side.
+ The event of the beam splitting
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitting
+\end_layout
+
+\end_inset
+
+ and the choosing the type of detector is spacelike
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacelike
+\end_layout
+
+\end_inset
+
+ separated (a feat that was technically a great challenge to accomplish).
+ A physics illusionist would point out that spacelike separation is a calculatio
+n done on two events in spacetime.
+\end_layout
+
+\begin_layout Standard
+The results look rational, the visual part of my brain is happy.
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle!animated spins 1/2, 1, and 2|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Snarky puzzle: Supersymmetry
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+supersymmetry
+\end_layout
+
+\end_inset
+
+ has superpartners to build super friends between particles that take different
+ amounts of time to jog around a circle.
  Animate this:
 \end_layout
 

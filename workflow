@@ -17,6 +17,7 @@ Save as eps
 in Lyx:
 +Insert > Graphics... Browse
   x Set width 20-60mm
+^l \vspace{5mm} before and after
 
 Images:
 Start of paragraph
