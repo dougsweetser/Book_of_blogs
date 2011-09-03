@@ -1,0 +1,2031 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass tufte-book
+\begin_preamble
+%%%%%%%%% PDF/X-3 stuff, necessary for Blurb IF USING xelatex %%%%%%%%%
+\special{pdf:docinfo <<
+/Title (Equivalence Principle)   % set your title here
+/Author (Doug Sweetser)       % set author name
+/Subject (Physics)          % set subject
+/Keywords (Strong Equivalence Principle) % set keywords
+/Trapped (False)
+/GTS_PDFXVersion (PDF/X-3:2002)
+% must have a trim box, but I think Blurb ignores the values
+/TrimBox [0.00000 9.00000 684.36000 585.00000] >>
+}
+\special{pdf:put @catalog <<
+/OutputIntents [ <<
+/Info (none)
+/Type /OutputIntent
+/S /GTS_PDFX
+/OutputConditionIdentifier (Blurb.com)
+/RegistryName (http://www.color.org/)
+>> ] >>
+}
+  
+\end_preamble
+\options blurb
+\use_default_options true
+\begin_modules
+logicalmkup
+tabs-within-sections
+figs-within-sections
+eqs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics xetex
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Weekly Blogging
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+blogging|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To celebrate a half year of effort, this is a blog on weekly blogging.
+ Three tangibles are created by the process: the Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ blog, a YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ videoblog, and a chapter in a book of blogs (still under development).
+ I will go through my technical suite used in production.
+ The 20-25 hours per week will be broken down.
+ Some data on the level of interest will be shown.
+ Finally, the rewards of this work will be reviewed.
+\end_layout
+
+\begin_layout Standard
+The most important thing to maintaining production for a weekly blog, trumping
+ all else, is having a topic to ramble about.
+ There is a simple test: would talking about this subject lead to significant
+ problems with your significant other? I know how to keep physics discussions
+ under two minutes with my wife.
+ She does enjoy going to Le Lyonnais
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Le Lyonnais
+\end_layout
+
+\end_inset
+
+, a superb French restaurant in my suburban town, to celebrate a physics
+ result like using hypercomplex numbers to resolve the spin 2 current coupling
+ issue.
+ Our next tentatively scheduled visit hinges on not seeing the Higgs in
+ a vast sea of bottom-antibottom possibilities between 120 to 145 GeV.
+\end_layout
+
+\begin_layout Standard
+This is a personal research blog.
+ I may run out of ideas worth sharing.
+ It is not like a blog about the National Football League
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+National Football League
+\end_layout
+
+\end_inset
+
+, with its predictable ebb and flow of the season.
+ I have to rummage around my own mind, dust off ideas, then make sure I
+ can show they make sense.
+ It is good I stored away 14 years of such meanderings with quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The technology used to produce blogs, videos, and future book all have a
+ guiding theme: speed.
+ Fast is the most important quality of any technical choice.
+ Most of the work is done on a 
+\emph on
+Mac Mini
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Mac Mini
+\end_layout
+
+\end_inset
+
+ - $1.3k
+\emph default
+.
+ I do have a Linux box that produces the quaternion animations.
+ Several key video tools are Mac only.
+\end_layout
+
+\begin_layout Section*
+Blog Tools
+\end_layout
+
+\begin_layout Standard
+Here is a list of what I use to write the blog, in rough time order.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{33mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/gqueues.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+GQueues
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GQueues
+\end_layout
+
+\end_inset
+
+.com - $25/year
+\emph default
+.
+ This is a fast, web-based outliner.
+ It is essential to order the subjects in a blog in a rational way, even
+ if that is not the order they are generated.
+ Rearranging is quick.
+ When on an item, type the number where it belongs.
+ There are single letter shortcuts for most operations, like 'i' for another
+ item or 's' for a new subtask.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Clipboard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Clipboard
+\end_layout
+
+\end_inset
+
+ and Post-It Notes - $1
+\emph default
+.
+ The first draft is written out longhand on a clipboard, often at Jam Time,
+ a gym for my daughter.
+ I keep a single page printout of the outline in hand.
+ The post-its are generated as they happen, mornings in particular.
+ Drafts get tossed away since it would require too much effort to file them.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-52mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/google_docs.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Google!Docs
+\end_layout
+
+\end_inset
+
+
+\emph on
+Google Docs - free
+\emph default
+.
+ Fear of the first line is avoided by always using the same format: "This
+ is a dramatic reading of 'Blog on Weekly Blogging', a blog by the Stand-Up
+ Physicist
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Stand-Up Physicist
+\end_layout
+
+\end_inset
+
+ available on Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+.com." The drafts are published on the web.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Text to Speech - Free
+\emph default
+.
+ Both Mac and Linux can translate text into robo-speech.
+ I bet there is an app for that, and a web site too.
+ This helps me hear errors that need to be addressed.
+ I do this 2-6 times per blog.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Text to Speech - Free
+\emph default
+.
+ I read the post out loud.
+ Since speaking uses different parts of the brain, different flaws are found,
+ particularly awkward sentences.
+ I have skipped this step about a third of the time.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Techno-doodles - $20
+\emph default
+.
+ This is something I should do more: simple figures with technical messages.
+ An outline is done in pencil, with ample use of the eraser, in a 5H led
+ which is light and easy to hide later.
+ Then I add ink or go to a B pencil.
+ If color would aid the message, I have pastels, pencils, markers, and crayons,
+ which ever makes the most visual sense.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Lumix DMC-FZ28K - $310
+\emph default
+.
+ Since the photos will get reduced for the web site to 200-600 pixels, any
+ digital camera will do.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{15mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_latexit.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+LaTeXiT
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LaTeXiT
+\end_layout
+
+\end_inset
+
+ - $25
+\emph default
+ (Mac).
+ Actually, it is free, but the guy in France deserves a donation for such
+ nice work.
+ The LaTeX
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LaTeX
+\end_layout
+
+\end_inset
+
+ for the blog gets tested and tweaked.
+ The resulting equation is stored in a library folder (blog_title/eq-1_GEM_Lagra
+ngian for example).
+ Being able to find something quickly is essential for reuse.
+ An eps file is exported for the book.
+\end_layout
+
+\begin_layout Standard
+The end result is a blog with text and pictures available in the early AM
+ every Tuesday.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{The videoblog starts after}
+\end_layout
+
+\end_inset
+
+ the Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ blog has been released.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cheap props - $0
+\emph default
+.
+ I used to spend a month making props for episodes of The Stand-Up Physicist
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Stand-Up Physicist
+\end_layout
+
+\end_inset
+
+, shown only on Auburn Community TV
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Auburn Community TV
+\end_layout
+
+\end_inset
+
+, an obscure outlet.
+ Now all I do is write on napkins and wave a book at the camera.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/physics_boards.JPG
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-35mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/monitor_isolagated.JPG
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-60mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/lights_2.JPG
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+28 Inch Monitor with Wall Mount - $500
+\emph default
+.
+ This is my teleprompter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+teleprompter
+\end_layout
+
+\end_inset
+
+.
+ I pull it out from the wall, get to full screen mode, make the font huge,
+ then page through the Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ print form of the blog, free of Celebrity TV ads.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Fluorescent Light Kit
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Light Kit
+\end_layout
+
+\end_inset
+
+ - $170
+\emph default
+.
+ I have a 1500 watt halogen light kit, but those ran so hot I melted the
+ insulation on one of the basement pipes.
+ The fluorescent lights use less electricity and are cool.
+ I was cheap and did not get a light box, so the bulbs can be seen in the
+ reflections of my glasses.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/camcorder_isolation.JPG
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+Panasonic HDC-SD1 - $760
+\emph default
+.
+ I do have a higher quality video camera, but it uses tape which requires
+ more effort to download to the computer.
+ I chose this one out of a crowded field because it had the best microphones.
+ A bad sound track means a bad video.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_imovie.png
+	width 2cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+iMovie
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+iMovie
+\end_layout
+
+\end_inset
+
+ - $80 (Mac).
+ I own what was the way more expensive video package, Final Cut Pro
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Final Cut Pro
+\end_layout
+
+\end_inset
+
+ Suite, but found for this project it was faster to use iMovie.
+ Less options means less thinking.
+ It is more than good enough for chatting in front of a camera.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_motion.png
+	width 2cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Motion
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Motion
+\end_layout
+
+\end_inset
+
+ - $50 (Mac).
+ Used for the title and end credits.
+ I only change the title, then export, a 5 minute job.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_youtube.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ - free.
+ Serve it up.
+ I now "monitize" it all.
+\end_layout
+
+\begin_layout Standard
+The video is a merger of the title sequence, body of the talk, plus the
+ credits.
+ If I stumble, I put a hand up in front of the camera to mark the botch,
+ and delete that part of the video.
+ Images, videos, and sound effects are added as needed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{The book}
+\end_layout
+
+\end_inset
+
+is the last output from this blogging effort.
+ The drive only started in the last month.
+ I knew that LaTeX
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LaTeX
+\end_layout
+
+\end_inset
+
+ can be used to make a professional looking book, with a table of contents,
+ footnotes, and an index, but the resulting documents are often visually
+ dull, a stream of words, since that is what most technical papers are.
+ There was a LaTeX format inspired by Edward Tufte
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Tufte, Edward
+\end_layout
+
+\end_inset
+
+, the big name in information design.
+ Buy and study his books.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{15mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/icon_for_lyx.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+Lyx
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Lyx
+\end_layout
+
+\end_inset
+
+ - free (Mac/MS/Linux)
+\emph default
+.
+ The current version, 2.0, knows about the Tufte-book style.
+ That style allows both margin comments and figures.
+ The indexing is professional, allowing for subindexing and making a reference
+ to a section on a topic stand out in bold.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Github
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Github
+\end_layout
+
+\end_inset
+
+.com - free (if public).
+
+\emph default
+ The chapter drafts and the accompanying software is being stored there.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/github.png
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I wrote a program in Perl
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Perl
+\end_layout
+
+\end_inset
+
+ to merge the chapters.
+ A chapter stays at a digestible size of 6-10 pages, while the book continues
+ to grows too big to be dealt with efficiently.
+ My software finds all .lyx files, removes the header and footer, and creates
+ one big book_of_blogs.lyx file.
+ Notes about technical details are there too for those who wish to investigate
+ that possibility for their own work.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/being_elle.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+Blurb
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Blurb
+\end_layout
+
+\end_inset
+
+.com - $60/250 page color softcover book
+\emph default
+.
+ These folks will be my printer.
+ They already have printed two of my books: "Being Elle: Laurencia Elle
+ Sweetser's First Year
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+books!Being Elle: Laurencia Elle Sweetser's First Year
+\end_layout
+
+\end_inset
+
+" and "A Young Man Watches a Young War
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+books!A Young Man Watches a Young War
+\end_layout
+
+\end_inset
+
+", a journal my 25 year-old grandfather kept while in Paris
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Paris
+\end_layout
+
+\end_inset
+
+ in October, 1, 1914, about to bike to the front lines.
+ Oops, well, apparently he did survive.
+ Both are free to flip through in their entirety.
+ 
+\end_layout
+
+\begin_layout Section*
+Blog Time 
+\end_layout
+
+\begin_layout Standard
+Blogging takes time.
+ I estimate I put in 20-25 hours per week.
+ I work the late shift, starting at 9 PM, going to 1-3 AM.
+ Lunch time can be blog time.
+ Here is a visual representation of the time line:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/Time_flow.3dpi.png
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The sizes correlated to the amount of time spent on the task.
+\end_layout
+
+\begin_layout Section*
+Feedback
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+feedback|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Start with the null feedback, the sound of silence.
+ There has been zero sales of the "No Stinkin' Higgs" t-shirt since the
+ blogging
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+blogging
+\end_layout
+
+\end_inset
+
+ started (there were sales to report to the IRS
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+IRS
+\end_layout
+
+\end_inset
+
+ before).
+ The Google Plus hangout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Google!hangout
+\end_layout
+
+\end_inset
+
+ has led to one discussion.
+ It was a good one, so I will keep that channel open for the time being.
+ No one tenure track or above has contacted me about this work.
+\end_layout
+
+\begin_layout Standard
+The number of views on Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ swamps those on YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ by approximately an order of magnitude.
+ The market response to these two channels is why doing a good job on the
+ Science20 blog takes precedence over the videoblog.
+ I expect any book to sell less than ten copies as my other books have.
+ Zero marketing dollars leads to zero sales.
+\end_layout
+
+\begin_layout Standard
+Quantum mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics
+\end_layout
+
+\end_inset
+
+ is number one.
+ The forever(?) ellusive Higgs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!boson
+\end_layout
+
+\end_inset
+
+ is hot.
+ Sex sells.
+ The Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle
+\end_layout
+
+\end_inset
+
+ Answer series is explicitly technical so is a low draw, but I am committed
+ to it.
+\end_layout
+
+\begin_layout Section*
+Rewards
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+rewards|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It ain't the money.
+ I am pulling in $2 per month from Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ and YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ each.
+ Science 20 is more generous.
+ Although my video channel has passed the 200k download mark, I have yet
+ to see my first Ben Franklin from Google
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Google
+\end_layout
+
+\end_inset
+
+ (that is their low limit on payouts).
+ I estimate my pay rate is a dime an hour.
+ As far as the IRS
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+IRS
+\end_layout
+
+\end_inset
+
+ is concerned, Universal GEM Productions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Universal GEM Productions
+\end_layout
+
+\end_inset
+
+ is a Schedule C business that consistently loses money.
+\end_layout
+
+\begin_layout Standard
+The rewards to my research have been superlative.
+ One is my smaller than the standard model model:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/standard_model_as_subgroups.eps
+	width 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Making an intellectual structure more compact is almost impossible.
+ It is an alternative to the big mansion groups 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+groups!SU(5)
+\end_layout
+
+\end_inset
+
+SU(5)
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!SU(10)
+\end_layout
+
+\end_inset
+
+, SU(10), and the Monster Group 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!E(8)
+\end_layout
+
+\end_inset
+
+E(8).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-38mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/ton_w_gauges.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The two flavors of the equivalence principle used to be vague in my mind.
+ Now I can see the weak equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!weak
+\end_layout
+
+\end_inset
+
+ - inertial mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!inertial
+\end_layout
+
+\end_inset
+
+ always exactly cancelling gravitational mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!gravitational
+\end_layout
+
+\end_inset
+
+ - as the gauge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gauge!cancellation
+\end_layout
+
+\end_inset
+
+ cancellation between quaternion
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions!field strength
+\end_layout
+
+\end_inset
+
+ and hypercomplex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex!field strengh
+\end_layout
+
+\end_inset
+
+ field strengths.
+ The strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+ - a dynamic metric
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+metric!dynamic
+\end_layout
+
+\end_inset
+
+ is the complete story, and any additional fields ruin the pudding - looks
+ to me like the duality
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+duality
+\end_layout
+
+\end_inset
+
+ of a metric and 4-potential solution.
+\end_layout
+
+\begin_layout Standard
+The games with the quaternion triple products
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternion!triple products
+\end_layout
+
+\end_inset
+
+ have been intricate.
+ I accept that there will never quite be the gamma matrices
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gamma matrices
+\end_layout
+
+\end_inset
+
+, leaving the door open to the possibility that they will behave better.
+ In particular, a technical connection to fermions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+fermions
+\end_layout
+
+\end_inset
+
+ is a bridge that must be built before hordes of theoretical physicists
+ drive down this road - if it can be built at all.
+\end_layout
+
+\begin_layout Standard
+The biggest reward is one I can know the least about: the social network
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+social network
+\end_layout
+
+\end_inset
+
+ effects.
+ I had a three page riff on possible scenarios.
+ Rereading the draft, it is hot air.
+ The bottom line is that if 2012 opens up without a Higgs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!boson
+\end_layout
+
+\end_inset
+
+ or supersymmetric particle within sight, that may get a cell or two of
+ physicists to walk down the GEM
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+ Lagrangian to field equations to solutions path.
+ Until then, I have work to do, no matter what day of the week it is.
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{50mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/age_of_universe.png
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+SPOILER!!!
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Go to a reference library.
+ No wait, don't bother.
+ Sit down in front of a computer like you are right now.
+ Open up another tab in your browser.
+ Go to WolframAlpha
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+WolframAlpha
+\end_layout
+
+\end_inset
+
+.com.
+ Type in: (Age of the Universe)/(Planck time
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Planck!time
+\end_layout
+
+\end_inset
+
+).
+ Save a tree and commit the number to memory.
+ Now type in: (radius of the observable universe)/(Plank length
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Plank!length
+\end_layout
+
+\end_inset
+
+).
+ Notice the ratio between the two numbers.
+ Then skeptically ask: (mass of the universe)/(Plank mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Plank!mass
+\end_layout
+
+\end_inset
+
+).
+ Ramble about whether you think that number should be bigger or smaller
+ than the other ones.
+ Welcome to the world of dimensionless Plank ratios
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Plank!ratios, dimensionless
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

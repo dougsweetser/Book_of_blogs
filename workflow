@@ -17,7 +17,8 @@ Save as eps
 in Lyx:
 +Insert > Graphics... Browse
   x Set width 20-60mm
-^l \vspace{5mm} before and after
+^l \vspace{5mm} before
+^l \vspace{2mm} after
 
 Images:
 Start of paragraph
@@ -25,6 +26,8 @@ Start of paragraph
 ^l [\hspace{10mm}] \vspace{-30mm}
 +Insert > Graphics... Browse
   x Set width  30-60mm
+^l \vspace{5mm} before
+^l \vspace{2mm} after
 
 Indexing:
 Have old index on hand

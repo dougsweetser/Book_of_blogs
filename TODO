@@ -1,9 +1,16 @@
-TEST on blurb.com
 Decide on location for images:
-   per chapter/part/book/blog?
-   symbolic links in git?
-Redome the image links
+    per chapter/part/book/blog?
+    symbolic links in git?
+Redo the image links
+Find all png files in the lyx
+    find . -depth 2 -name "*.lyx" -exec grep -i -e  png '{}' ';'
 Part + text on same page
+merge title page + bulk of book
+Cross referencing for snarky puzzle
+    how to do in chapter
+    how to do in spa
+
 
 Done
-x  Get config files to work.
+x  TEST on blurb.com
+x  Get LaTeX config files to work.

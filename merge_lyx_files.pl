@@ -40,7 +40,7 @@ use FindBin qw($Bin);
 use Test::More 'no_plan';
 
 my $out;
-my $out_default = "book_of_blogs.lyx";
+my $out_default = "book.lyx";
 my $out_tex;
 my $out_pdf;
 my $list;

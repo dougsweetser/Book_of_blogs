@@ -111,7 +111,7 @@ status open
 
 
 \backslash
-vspace{3mm}
+vspace{5mm}
 \end_layout
 
 \end_inset
@@ -134,7 +134,7 @@ status open
 
 
 \backslash
-vspace{3mm}
+vspace{2mm}
 \end_layout
 
 \end_inset
@@ -173,7 +173,7 @@ vspace{-30mm}
 
 \end_inset
 
-T
+Paragraph
 \end_layout
 
 \begin_layout Section*
@@ -182,7 +182,7 @@ The Subheading
 status open
 
 \begin_layout Plain Layout
-Particles|textbf
+particles|textbf
 \end_layout
 
 \end_inset
@@ -196,7 +196,7 @@ Snarky Puzzle
 status open
 
 \begin_layout Plain Layout
-Snarky Puzzle
+snarky puzzle!
 \end_layout
 
 \end_inset

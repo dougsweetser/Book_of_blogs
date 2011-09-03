@@ -100,7 +100,1072 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Chapter
+Quaternions For A Third Grader
+\end_layout
+
+\begin_layout Standard
+Third graders enjoy clay and pipe cleaners.
+ It might sound cruel to teach them graduate level graph theory most math
+ Ph.D.’s have not seen, but I might get away with it if I uses the right craft
+ supplies.
+ Tell kids spinach is good for them.
+ Children are right to skeptical, as I expect of my reader.
+\end_layout
+
+\begin_layout Standard
+Real numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!real
+\end_layout
+
+\end_inset
+
+ are the most important numbers out there, bar none.
+ Even for people working with category theory can have Elmo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Elmo
+\end_layout
+
+\end_inset
+
+ count their functors as long as they are written down on a piece of paper.
+ While I have watched Elmo count four ducks, four birds of a feather, a
+ few hundred times, I have not seen him do any multiplication.
+ No doubt this would be the first step:
+\end_layout
+
+\begin_layout Standard
+1 x 1 = 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_real_number.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Here is what it looks like in clay and pipe cleaners.
+\end_layout
+
+\begin_layout Standard
+The clay ball is the vertex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+vertex
+\end_layout
+
+\end_inset
+
+, the pipe cleaner is an edge.
+ Both are labelled.
+ Vertex 1 times edge 1 brings us back to vertex 1.
+ This sounds too simple.
+ I recognize that few of the esteemed readers here are still in third grade,
+ rare that a school would hold back a pupil for decades, although if you
+ are that special, I apologize.
+\end_layout
+
+\begin_layout Standard
+The next step for Elmo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Elmo
+\end_layout
+
+\end_inset
+
+ is...
+ no, this would never be done in the real world, because the real world
+ is real, no need to use imaginary numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!imaginary
+\end_layout
+
+\end_inset
+
+ that are far, far to difficult to ever understand even as a post-doc.
+ Yet children do have great imaginations, so they should be naturals with
+ imaginary numbers.
+ Look at the math:
+\end_layout
+
+\begin_layout Standard
+i x 1 = i
+\end_layout
+
+\begin_layout Standard
+Um, actually, that is darn similar to the last one.
+ The graph theory
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graph theory
+\end_layout
+
+\end_inset
+
+ is the same except that the label for the vertex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+vertex
+\end_layout
+
+\end_inset
+
+ gets changed.
+ No visible difference at the clay and pipe cleaner level between real
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!real
+\end_layout
+
+\end_inset
+
+ and imaginary
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!imaginary
+\end_layout
+
+\end_inset
+
+ numbers.
+\end_layout
+
+\begin_layout Standard
+I know, I know, the math Ph.D.
+ is going to hit me over the head with a morphism I don’t understand.
+ Here is why the claim works: it is the pipe cleaner, the edge, the second
+ number that is the real number
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+number!real
+\end_layout
+
+\end_inset
+
+.
+ What happens if the edge, the second number, if that is the imaginary number
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+number!imaginary
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+1 x i = i
+\end_layout
+
+\begin_layout Standard
+i x -i = 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_complex_number.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+I am a guy with two clay balls, one labeled “1”, the other labeled “i”.
+ I am not a three balls guy, so one of the labels gets a “-i” for the edge
+ or vas deferens (pop anantomy quiz: two testicles
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+testicles
+\end_layout
+
+\end_inset
+
+ are not connected together by the sperm ducts, so please draw an accurate
+ picture of the private plumbing.
+ As a bonus, explain to anyone seeing you answer this pop quiz how this
+ relates to the number theory of theoretical physics).
+ The real numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!real
+\end_layout
+
+\end_inset
+
+ on edges make for undirectional graphs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graphs!undirectional
+\end_layout
+
+\end_inset
+
+.
+ The imaginary numbers on edges make for directional graphs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graphs!directional
+\end_layout
+
+\end_inset
+
+.
+ Complex numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!complex
+\end_layout
+
+\end_inset
+
+ have two undirectional and two directional edges connecting their two vertexes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{10mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_quaternions.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+To do quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+, you need more balls, two more balls.
+\end_layout
+
+\begin_layout Standard
+The full set of rules look similar:
+\end_layout
+
+\begin_layout Standard
+1 x 1 = 1
+\end_layout
+
+\begin_layout Standard
+i x 1 = i
+\end_layout
+
+\begin_layout Standard
+1 x i = i
+\end_layout
+
+\begin_layout Standard
+i x -i = 1
+\end_layout
+
+\begin_layout Standard
+j x 1 = j
+\end_layout
+
+\begin_layout Standard
+1 x j = j
+\end_layout
+
+\begin_layout Standard
+j x -j = 1
+\end_layout
+
+\begin_layout Standard
+k x 1 = k
+\end_layout
+
+\begin_layout Standard
+1 x k = k
+\end_layout
+
+\begin_layout Standard
+k x -k = 1
+\end_layout
+
+\begin_layout Standard
+Let’s take a survey where I know the answer: how many of you have built
+ the graph theory
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graph theory
+\end_layout
+
+\end_inset
+
+ for a quaternion
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternion
+\end_layout
+
+\end_inset
+
+? Without collecting any data, my guess is zero.
+ If you have, you will know what a pain in the ass it is to get those two
+ pipe cleaners to go into the one hole in the clay.
+ I had to tie a little piece of string around a little pair of pipe cleaners,
+ tie a tiny knot, clip off the extra, all without knocking down the delicate
+ structure.
+ Once you have done this 12 times, you say, “Fuck these two pipe cleaners”
+ (hopefully without the kids in earshot).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-60mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_hypercomplex.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Build this simpler structure.
+\end_layout
+
+\begin_layout Standard
+The rules are simpler too:
+\end_layout
+
+\begin_layout Standard
+1 x 1 = 1
+\end_layout
+
+\begin_layout Standard
+i x 1 = i x 1 = i
+\end_layout
+
+\begin_layout Standard
+j x 1 = 1 x j = j
+\end_layout
+
+\begin_layout Standard
+k x 1 = 1 x k = k
+\end_layout
+
+\begin_layout Standard
+i x i = j x j = k x k = 1
+\end_layout
+
+\begin_layout Standard
+All undirectional graphs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graphs!undirectional
+\end_layout
+
+\end_inset
+
+, every last one of them.
+ Much easier to build and maintain.
+ Formally this is the graph for the Klein 4-group
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!Klein
+\end_layout
+
+\end_inset
+
+.
+ I like to call this the California representation of hypercomplex numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex numbers!California representation
+\end_layout
+
+\end_inset
+
+.
+ Always sunny out there in California compared to New England, and there
+ is not a minus sign in their house.
+ No negativity, all about love, making things bigger for all.
+\end_layout
+
+\begin_layout Standard
+It is these two graphs constructed out of clay and pipe cleaners sitting
+ on a shelf in the basement that ground my belief that quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+ and hypercomplex numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex numbers
+\end_layout
+
+\end_inset
+
+ together may be sufficient to completely describe patterns of events
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+events
+\end_layout
+
+\end_inset
+
+ in spacetime
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacetime
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I am well aware of the soiled reputation quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+ have in the theoretical physics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+theoretical physics
+\end_layout
+
+\end_inset
+
+ world.
+ One solid justification is that the Lorentz group
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!Lorentz
+\end_layout
+
+\end_inset
+
+ cannot be written using quaternions.
+ That one failure is enough to avoid them as people avoid people with leprosy.
+ But I worked on leprosy the disease.
+ One of few lines of a technical paper I can quote goes: “Research over
+ the past 100 years to infect people with leprosy
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+leprosy
+\end_layout
+
+\end_inset
+
+ have failed.” Much to the tremendous pleasure of the people coerced into
+ the studies! People are visual, not so analytic.
+ Leprosy is the most visually damaging disease, and thus the most feared.
+ But the mycobateria that causes it does not jump from person to person
+ with any efficiency whatsoever.
+ It is thought that if a person has a genetic flaw, and much repeated exposure,
+ then they have a chance of picking up this slow growing bacilli that is
+ easily treated with sulfur drugs.
+ Only if you are really unlucky, really poor, could you get Hansen’s disease,
+ and then have to be unlucky and poor not to have it treated effectively.
+ Two or three million people fall into this class worldwide.
+\end_layout
+
+\begin_layout Standard
+In July, 2010, I figured out how to represent the Lorentz group
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!Lorentz
+\end_layout
+
+\end_inset
+
+ with quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+.
+ If you have the math chops to understand the claim, I will leave it as
+ a puzzle at the end of this post which is targeted for the third grader.
+ Point of full disclosure: of course I own quaternions.com
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions.com
+\end_layout
+
+\end_inset
+
+, but pursuant to the guidelines of Science 2.0, I am not trying to drive
+ traffic there (mostly because there are no ads there, no income stream
+ to tap).
+ Some will claim I am a quaternion zealot.
+ Let the two graphs presented here be a counter argument.
+ Quaternions cannot do it all, the hypercomplex numbers are just as vital.
+\end_layout
+
+\begin_layout Standard
+Here is a sketch of my road to a unified standard model
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+, distinct from a unified field theory which historically focuses on gravity
+ and EM alone.
+ One need to get to 
+\series bold
+\emph on
+B
+\series default
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+-
+\series bold
+\emph on
+E
+\series default
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and 
+\series bold
+\emph on
+E
+\series default
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\end_inset
+
+
+\series bold
+\emph on
+B
+\series default
+\emph default
+, drop that into Euler-Lagrange
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Euler-Lagrange
+\end_layout
+
+\end_inset
+
+, and out pop the Maxwell
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Maxwell equations
+\end_layout
+
+\end_inset
+
+ source and homogeneous equations respectively.
+ I can do that in a gauge invariant way with quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+, simpler than the contraction of the EM field strength tensors.
+ I repeat the exercise with hypercomplex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex numbers
+\end_layout
+
+\end_inset
+
+ rules of multiplication, the ones with no minus signs.
+ If you think about the two graphs in this post - superimpose one on the
+ other in your mind’s eye - you might be able to convince yourself that
+ exactly half the signs change.
+ Give me 15 clean blackboards and two hours, I could show you in excessive
+ detail that exactly half the signs change.
+ You can spot good old Newton’s law of gravity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Newton!law of gravity
+\end_layout
+
+\end_inset
+
+ plus a time dependent term, showing respect for the speed limit of light.
+ There is no no monopoles law
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Maxwell equations!no monopoles law
+\end_layout
+
+\end_inset
+
+, but that is good because mass has but one charge.
+ Using hypercomplex numbers does mean gravity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gravity
+\end_layout
+
+\end_inset
+
+ is all about love, all about attraction, all that ever happens in the Hollywood
+ version of sunny California.
+ Do the Lagrangian to field equation routine a third time, using the hypercomple
+x Lagrangian minus the quaternion stuff, in a way that the hypercomplex
+ stuff depends on a gauge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gauge
+\end_layout
+
+\end_inset
+
+ and cannot travel at the speed of light, and the quaternion stuff depends
+ on the same gauge exactly the same way, but overall, the magic of a minus
+ sign cancels both gauges so the Lagrange density overall is gauge invariant.
+ The Higgs mechanism
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!mechanism
+\end_layout
+
+\end_inset
+
+ is a cute solution, but I prefer a cute Lagrangian.
+ I could get Elmo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Elmo
+\end_layout
+
+\end_inset
+
+ to can point to a quantum field equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!weak
+\end_layout
+
+\end_inset
+
+ in the Lagrangian that the standard model
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+standard model
+\end_layout
+
+\end_inset
+
+ plus the Higgs mechanism cannot.
+\end_layout
+
+\begin_layout Standard
+I will stand next to this strong statement: 
+\end_layout
+
+\begin_layout Quote
+The derivation and field equations for the GEM unified standard model proposal
+ are drop dead gorgeous.
+\end_layout
+
+\begin_layout Standard
+That claim already applies as is to the Maxwell equations, which are stunning.
+ I am inviting a few more of beauties to the party.
+\end_layout
+
+\begin_layout Standard
+There are mountains, mountains and mountains left to climb, but at the base,
+ is this vision of numbers for spacetime
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacetime
+\end_layout
+
+\end_inset
+
+ made from clay and pipe cleaners.
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle!Lorentz boost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+"Quaternions came from Hamilton after his really good work had been done;
+ and though beautifully ingenious, have been an unmixed evil to those who
+ have touched them in any way, including Maxwell." 
+\end_layout
+
+\begin_layout Quotation
+\align right
+
+\emph on
+--Lord Kelvin
+\end_layout
+
+\begin_layout Standard
+Quaternions have been a one-trick pony, good for doing 3D rotations since
+ the 1850’s.
+ We presume you have received a good enough education to write it down as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/quaternion_rotation.eps
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where I is an arbitrary 3-vector.
+ Show how if hyperbolic sine
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hyperbolic!sine
+\end_layout
+
+\end_inset
+
+ and hyperbolic cosine
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hyperbolic!cosine
+\end_layout
+
+\end_inset
+
+ functions are swapped in, evil results: while two terms are correct, two
+ terms are missing, and two other terms that don’t belong soil the calculation
+ any finely educated simpleton would try first.
+ Your job: unmix the evil.
+ For this not simply connected group, find another two combinations of these
+ hyperbolic functions, R, and conjugate operators that correct the flaws.
+ That is what “not simply connected” means, that things must be added together,
+ or did they skip the obvious in your group theory training? Should you
+ tire of the strain, the answer is on a preprint server.
+ Note, that is not the preprint server, since those living on the ultra-conserva
+tive fringe have to build their own servers out of fairy dust and Drupal
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drupal
+\end_layout
+
+\end_inset
+
+.
+ Very old school here, pre-school, grad school, fringe school, whatever.
+\end_layout
+
+\begin_layout Chapter
 Visualizing Quantum Interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mecahnics!interference|textbf
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -116,14 +1181,53 @@ Quantum interference is really, really, really well-supported by data, data,
 \end_layout
 
 \begin_layout Standard
-In this blog, John Wheeler's delayed choice thought experiment will be explained.
+In this blog, John Wheeler
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Wheeler, John
+\end_layout
+
+\end_inset
+
+'s delayed-choice
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ thought experiment will be explained.
  The idea briefly is to ask if a single photon goes down a specific path
  or if the solitary photon goes down two paths so it can interfere with
  itself.
- In 2006, the thought experiment was made real by Alain Aspect and his collabora
-tors.
+ In 2006, the thought experiment was made real by Alain Aspect
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Aspect, Alain
+\end_layout
+
+\end_inset
+
+ and his collaborators.
  The paper provides the simple equations I was able to use to make quaternion
- animations of the process.
+ animations
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions!animations
+\end_layout
+
+\end_inset
+
+ of the process.
  The reader will be able to see animations of quantum interference for the
  first time.
 \end_layout
@@ -145,7 +1249,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_choice_one_fig.eps
-	width 160mm
+	width 100mm
 
 \end_inset
 
@@ -162,38 +1266,133 @@ status open
 \end_layout
 
 \begin_layout Standard
-The intensity of the source is adjusted so that it emits one photon at a
- time.
- The photon comes to a beam splitter.
+The intensity of the source is adjusted so that it emits one photon
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon
+\end_layout
+
+\end_inset
+
+ at a time.
+ The photon comes to a beam splitter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitter
+\end_layout
+
+\end_inset
+
+.
  The solitary photon can either stay down, or turn and go to the up path
  or perhaps the silent solitary one decides to go on both paths as part
- of a plan to create an interference pattern (photons are devilishly clever).
+ of a plan to create an interference pattern
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference pattern
+\end_layout
+
+\end_inset
+
+ (photons are devilishly clever).
  At the detector box, the experimentalist makes a choice: see if the photon
  took the down path, or the up path, or both paths as would be needed to
  see an interference pattern.
  The decision about what type of measurement to do is delayed until after
  the photon has passed by the beam splitter (technically, a spacelike separation
  is required).
- Wheeler argued that the odd logic of quantum mechanics demands such schizophren
-ic behavior.
+ Wheeler argued that the odd logic of quantum mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics
+\end_layout
+
+\end_inset
+
+ demands such schizophrenic behavior.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset Flex Marginnote
-status collapsed
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
-Side bar: The single photon red herring Intensity has never been an issue
- in quantum mechanics since the day Einstein explained the photo electric
- effect.
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/visualize_qm_interference/red-herring.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Marginnote
+status open
+
+\begin_layout Plain Layout
+Side bar: The single photon red herring
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+red herring
+\end_layout
+
+\end_inset
+
+ Intensity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon!intensity
+\end_layout
+
+\end_inset
+
+ has never been an issue in quantum mechanics since the day Einstein explained
+ the photo electric effect.
  People will nod along with the statement that intensity is not relevant
  to quantum processes.
  The consequence of the statement is that lowering the intensity to one
  photon a day does not change an effect except to slow the rate the experimental
 ist collects data.
- Water molecules hold hands using hydrogen bonds, so water waves are changed
- by intensity.
+ Water molecules hold hands using hydrogen bonds
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hydrogen bonds
+\end_layout
+
+\end_inset
+
+, so water waves are changed by intensity.
  Photons are isolationists, whether as solitary skaters in this experiment,
  or if sent as a swarm of a billion a second.
  The photons never hold hands or work together.
@@ -210,25 +1409,82 @@ ist collects data.
 \end_layout
 
 \begin_layout Standard
-Wheeler's thought experiment was made real by Alain Aspect and his collaborators.
+Wheeler
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Wheeler, John
+\end_layout
+
+\end_inset
+
+'s thought experiment was made real by Alain Aspect
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Aspect, Alain
+\end_layout
+
+\end_inset
+
+ and his collaborators.
  The paper was fun to read and reread.
  I think the experimentalists got it right.
  Here is the entire abstract: 
 \end_layout
 
 \begin_layout Verse
-ABSTRACT: The quantum "mystery which cannot go away" (in Feynman's words)
- of wave-particle duality is illustrated in a striking way by Wheeler's
- delayed-choice Gedanken Experiment.
+ABSTRACT: The quantum "mystery which cannot go away" (in Feynman
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Feynman, Richard
+\end_layout
+
+\end_inset
+
+'s words) of wave-particle duality
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+wave-particle duality
+\end_layout
+
+\end_inset
+
+ is illustrated in a striking way by Wheeler's delayed-choice
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ Gedanken Experiment.
  In this experiment, the configuration of a two-path interferometer is chosen
  after a single-photon pulse has entered it: either the interferometer is
  closed (i.e.
  the two paths are recombined) and the interference is observed, or the
  interferometer remains open and the path followed by the photon is measured.
  We report an almost ideal realization of that Gedanken Experiment, where
- the light pulses are true single photons, allowing unambiguous which-way
- measurements, and the interferometer, which has two spatially separated
- paths, produces high visibility interference.
+ the light pulses are true single photons
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon!single
+\end_layout
+
+\end_inset
+
+, allowing unambiguous which-way measurements, and the interferometer, which
+ has two spatially separated paths, produces high visibility interference.
  The choice between measuring either the 'open' or 'closed' configuration
  is made by a quantum random number generator, and is space-like separated
  -- in the relativistic sense -- from the entering of the photon into the
@@ -248,7 +1504,7 @@ With the information provided so far, I don't think this story can make
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/figure_3_with_diagrams.png
-	width 160mm
+	width 10cm
 
 \end_inset
 
@@ -261,21 +1517,58 @@ With the information provided so far, I don't think this story can make
 
 \begin_layout Standard
 This situation reminds me of something I learned about illusion in the film
- "The Prestige".
+ "The Prestige
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+movies!The Prestige
+\end_layout
+
+\end_inset
+
+".
  That was a great film by the way, one that has to be watched two or three
  times before you get it.
  An illusion has three parts: 
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Pledge
+\end_layout
+
+\end_inset
+
 The Pledge
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Turn
+\end_layout
+
+\end_inset
+
 The Turn
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Prestige
+\end_layout
+
+\end_inset
+
 The Prestige 
 \end_layout
 
@@ -291,12 +1584,51 @@ The Pledge starts out the story with something ordinary.
 \end_layout
 
 \begin_layout Standard
-In quantum mechanics today, I feel we must live with the Turn.
+In quantum mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics
+\end_layout
+
+\end_inset
+
+ today, I feel we must live with the Turn
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+The Turn
+\end_layout
+
+\end_inset
+
+.
  People who study and know some of the vital experiments in quantum oddness
- like the delayed choice experiment will tell you that is the way, accept
- that you cannot understand.
+ like the delayed-choice experiment
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ will tell you that is the way, accept that you cannot understand.
  A small circle of fringe folks will holler about their own approach, one
- which shows no understanding of the Pledge or Turn of quantum mechanics.
+ which shows no understanding of the Pledge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+illusion!The Pledge
+\end_layout
+
+\end_inset
+
+ or Turn of quantum mechanics.
  A real illusionist would know exactly where the answer was placed.
  I put the answer in plain English, but surrounded it with words that would
  make the reader focus on a different subject.
@@ -306,7 +1638,7 @@ In quantum mechanics today, I feel we must live with the Turn.
 \begin_layout Standard
 \begin_inset Graphics
 	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_choice_coherent.eps
-	width 160mm
+	width 8cm
 
 \end_inset
 
@@ -318,18 +1650,82 @@ In quantum mechanics today, I feel we must live with the Turn.
 \end_layout
 
 \begin_layout Standard
-I mentioned the source was coherent, but only in the context of intensity.
+I mentioned the source was coherent, but only in the context of intensity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+photon!intensity
+\end_layout
+
+\end_inset
+
+.
  The math of the source is treated as ordinary, even if it isn't.
 \end_layout
 
 \begin_layout Standard
-The up/down path detector is another herring, albeit more tempting given
- the name of the thought experiment.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/visualize_qm_interference/red-herring.png
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The up/down path detector is another herring
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+red herring
+\end_layout
+
+\end_inset
+
+, albeit more tempting given the name of the thought experiment.
  No matter what the source is, we can detect if it went on one path or another
- after a beam splitter.
+ after a beam splitter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitter
+\end_layout
+
+\end_inset
+
+.
  That is not a mystery.
  What needs to be understood is the interference for a non-interacting particle
- of a coherent source.
+ of a coherent source
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+coherent source
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -339,25 +1735,189 @@ The source is so not random.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_1_psi_cos_sin.eps
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Take the norm in order to calculate the probabilities of being in port 1
  or 2:
 \end_layout
 
 \begin_layout Standard
-This is unity as it must be.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_2_psi2.eps
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is unity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+unity
+\end_layout
+
+\end_inset
+
+ as it must be.
  Observers, sitting as they do at the spatial center of their own Universe
  (0, 0, 0), get probabilities of seeing an event from the source by taking
  the norm.
 \end_layout
 
 \begin_layout Standard
-Let's use the quaternion animation software to look at the amplitude of
- the wave function as is, equation 1, even though no one can see it.
+Let's use the quaternion animation
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions!animation
+\end_layout
+
+\end_inset
+
+ software to look at the amplitude of the wave function
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+wave function
+\end_layout
+
+\end_inset
+
+ as is, equation 1, even though no one can see it.
 \end_layout
 
 \begin_layout Standard
-The animation has the symmetry U(1), a unit circle in the complex plane
- of Right-Left+time.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/1.amplitude.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The animation has the symmetry U(1)
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!U(1)
+\end_layout
+
+\end_inset
+
+, a unit circle in the complex plane of Right-Left+time.
  
 \end_layout
 
@@ -371,6 +1931,48 @@ The animation reveals a problem with the visualization.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/2.amplitude_w_shift.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Two walls collide.
  Is it possible to follow one value of the phase? Again we are not being
  physical because individual photons cannot be marked in red, but the software
@@ -378,8 +1980,69 @@ Two walls collide.
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/3.amplitude_marked.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Why are there so many points in this animation? Because every point in spacetime
- can be mapped to this unit circle.
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacetime
+\end_layout
+
+\end_inset
+
+ can be mapped to this unit circle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+unit circle
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -389,141 +2052,10 @@ Label the two paths A and B.
 \end_layout
 
 \begin_layout Standard
-A* B - interference (3a) B* A - interference (3a)
-\end_layout
-
-\begin_layout Standard
-A* A - no interference (3b) B* B - no interference (3b)
-\end_layout
-
-\begin_layout Standard
-We can see the lack of ambiguity for the no interference case.
- The first two are going to be more complicated.
- For a fixed value of phi and omega = 1, vary t and plot:
-\end_layout
-
-\begin_layout Standard
-This is what quantum interference can look like: the combination of three
- complex plane images: a straight line, a circle, and something sinusoidal.
- No wonder this is tricky! (one technical detail: for the way my software
- is designed, I had to swap the roles of x and y, as you can tell since
- the circle is now in the ty plane instead of the tx plane.
- A bigger and smoother version of this animation is available).
-\end_layout
-
-\begin_layout Standard
-I am not going to market these images as trivial to understand as that would
- mock any earlier efforts to have a visual interpretation of quantum interferenc
-e.
- Instead I can point out why these images are a challenge.
- Time is a scalar, space is a vector.
- In quantum mechanics, the scalar is not a dull, monotonically increasing
- function.
- Instead, time toys with space, but mapping it back into the same space,
- thus hiding its hand.
- I needed to take what was only happening between time and one dimension
- of space and use another dimension to get a better handle on what was happening.
-\end_layout
-
-\begin_layout Standard
-"What does one plus equal?" That is good English, math gibberish.
- "Did the photon go on the up or the down path?" While the question is perfect
- English, its is a poorly formed question for quantum interference.
- Poorly formed questions can never be answered.
- "Was there a photon at this location and at this time?" is a well-formed
- question.
- If you know exactly when a photon is seen, then a second prior to being
- detected you can make a statement about where it was, no matter what detector
- was used.
- Say the beam splitter was 2 light seconds away from the detector.
- Then there is a 50-50 chance the photon was at the half-way point of the
- up or the down path.
- If the down detector saw the photon, then the photon was at the half-way
- point in the down path.
- Notice I said both time and space locations.
- The photon was not in some arbitrary place along the down path a light
- second before detection.
-\end_layout
-
-\begin_layout Standard
-What can be said if the interference detector was used? If the interference
- saw the maximal constructive interference, then one light second before
- detection, the photon was a the half-way point between either up or down.
- If the interference was at the maximal destructive point, then there was
- definitely no photon at the halfway point in either branch.
- For interference value between these two extremes, it sets the odds on
- a photon being at the halfway point a light second before being detected.
-\end_layout
-
-\begin_layout Standard
-The coherent source is exceptionally well organized.
- It is the exquisite organization of the source that one sees in the interferenc
-e pattern.
- Let messengers from the neat source house of particles travel down two
- paths of different lengths, and the resulting pattern looks like interference.
- The emissaries have no need to interact with each other, the proverbial
- bump into each other.
-\end_layout
-
-\begin_layout Standard
-From my perspective, the height of absurdity in theoretical physics today
- are those trying to work without time.
- No doubt they think the delayed choice experiment is on their side.
- The event of the beam splitting and the choosing the type of detector is
- spacelike separated (a feat that was technically a great challenge to accomplis
-h).
- A physics illusionist would point out that spacelike separation is a calculatio
-n done on two events in spacetime.
-\end_layout
-
-\begin_layout Standard
-The results look rational, the visual part of my brain is happy.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace{3mm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename /Users/doug/Dropbox/Science20/Equivalence_principle/eq2_newt_complete.eps
-	width 6.5in
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace{3mm}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float marginfigure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -540,40 +2072,12 @@ vspace{-30mm}
 
 
 \begin_inset Graphics
-	filename /Users/dsweetser/Dropbox/Science20/Equivalence_principle/ton.jpg
-	width 50mm
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_interference.png
+	width 5cm
 
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-T
-\end_layout
-
-\begin_layout Section*
-The Subheading
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Particles|textbf
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Snarky Puzzle
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Snarky Puzzle
 \end_layout
 
 \end_inset
@@ -582,9 +2086,500 @@ Snarky Puzzle
 \end_layout
 
 \begin_layout Standard
-Snarky puzzle: Supersymmetry has superpartners to build super friends between
- particles that take different amounts of time to jog around a circle.
+A* B - interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference
+\end_layout
+
+\end_inset
+
+ (3a) B* A - interference (3a)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_4_interference.eps
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_5_interference.eps
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-5mm}
+\backslash
+vspace{-25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/delayed_up_or_down.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+A* A - no interference (3b) B* B - no interference (3b)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_6_=1.eps
+	width 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/eq_7_=1.eps
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can see the lack of ambiguity for the no interference case.
+ The first two are going to be more complicated.
+ For a fixed value of phi and omega = 1, vary t and plot:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/4.interference.png
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is what quantum interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics!interference
+\end_layout
+
+\end_inset
+
+ can look like: the combination of three complex plane images: a straight
+ line, a circle, and something sinusoidal.
+ No wonder this is tricky! (one technical detail: for the way my software
+ is designed, I had to swap the roles of x and y, as you can tell since
+ the circle is now in the ty plane instead of the tx plane.
+ A bigger and smoother version of this animation is available).
+\end_layout
+
+\begin_layout Standard
+I am not going to market these images as trivial to understand as that would
+ mock any earlier efforts to have a visual interpretation of 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mecahnics!interference
+\end_layout
+
+\end_inset
+
+quantum interference.
+ Instead I can point out why these images are a challenge.
+ Time is a scalar, space is a vector.
+ In quantum mechanics, the scalar is not a dull, monotonically increasing
+ function.
+ Instead, time toys with space, but mapping it back into the same space,
+ thus hiding its hand.
+ I needed to take what was only happening between time and one dimension
+ of space and use another dimension to get a better handle on what was happening.
+\end_layout
+
+\begin_layout Standard
+"What does one plus equal?" That is good English, math gibberish.
+ "Did the photon go on the up or the down path?" While the question is perfect
+ English, its is a poorly formed question for quantum interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics!interference
+\end_layout
+
+\end_inset
+
+.
+ Poorly formed questions can never be answered.
+ "Was there a photon at this location and at this time?" is a well-formed
+ question.
+ If you know exactly when a photon is seen, then a second prior to being
+ detected you can make a statement about where it was, no matter what detector
+ was used.
+ Say the beam splitter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitter
+\end_layout
+
+\end_inset
+
+ was 2 light seconds away from the detector.
+ Then there is a 50-50 chance the photon was at the half-way point of the
+ up or the down path.
+ If the down detector saw the photon, then the photon was at the half-way
+ point in the down path.
+ Notice I said both time and space locations.
+ The photon was not in some arbitrary place along the down path a light
+ second before detection.
+\end_layout
+
+\begin_layout Standard
+What can be said if the interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference
+\end_layout
+
+\end_inset
+
+ detector was used? If the interference saw the maximal constructive interferenc
+e
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference!constructive
+\end_layout
+
+\end_inset
+
+, then one light second before detection, the photon was a the half-way
+ point between either up or down.
+ If the interference
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interference!destructive
+\end_layout
+
+\end_inset
+
+ was at the maximal destructive point, then there was definitely no photon
+ at the halfway point in either branch.
+ For interference value between these two extremes, it sets the odds on
+ a photon being at the halfway point a light second before being detected.
+\end_layout
+
+\begin_layout Standard
+The coherent source
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+coherent source
+\end_layout
+
+\end_inset
+
+ is 
+\emph on
+exceptionally well-organized
+\emph default
+.
+ It is the exquisite organization of the source that one sees in the interferenc
+e pattern.
+ Let messengers from the neat source house of particles travel down two
+ paths of different lengths, and the resulting pattern looks like interference.
+ The emissaries have no need to interact with each other, the proverbial
+ bump into each other.
+\end_layout
+
+\begin_layout Standard
+From my perspective, the height of absurdity in theoretical physics today
+ are those trying to work without time.
+ No doubt they think the delayed-choice experiment
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+delayed-choice experiment
+\end_layout
+
+\end_inset
+
+ is on their side.
+ The event of the beam splitting
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+beam splitting
+\end_layout
+
+\end_inset
+
+ and the choosing the type of detector is spacelike
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacelike
+\end_layout
+
+\end_inset
+
+ separated (a feat that was technically a great challenge to accomplish).
+ A physics illusionist would point out that spacelike separation is a calculatio
+n done on two events in spacetime.
+\end_layout
+
+\begin_layout Standard
+The results look rational, the visual part of my brain is happy.
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle!animated spins 1/2, 1, and 2|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Snarky puzzle: Supersymmetry
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+supersymmetry
+\end_layout
+
+\end_inset
+
+ has superpartners to build super friends between particles that take different
+ amounts of time to jog around a circle.
  Animate this:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/visualize_qm_interference/snarky_puzzle_super_symmetry.eps
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3415,6 +5410,1924 @@ groups!U(1)
  eight quaternion polynomials.
  There should be one obvious property of the ones where the gauge happens
  to be equal to zero.
+\end_layout
+
+\begin_layout Chapter
+Weekly Blogging
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+blogging|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To celebrate a half year of effort, this is a blog on weekly blogging.
+ Three tangibles are created by the process: the Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ blog, a YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ videoblog, and a chapter in a book of blogs (still under development).
+ I will go through my technical suite used in production.
+ The 20-25 hours per week will be broken down.
+ Some data on the level of interest will be shown.
+ Finally, the rewards of this work will be reviewed.
+\end_layout
+
+\begin_layout Standard
+The most important thing to maintaining production for a weekly blog, trumping
+ all else, is having a topic to ramble about.
+ There is a simple test: would talking about this subject lead to significant
+ problems with your significant other? I know how to keep physics discussions
+ under two minutes with my wife.
+ She does enjoy going to Le Lyonnais
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Le Lyonnais
+\end_layout
+
+\end_inset
+
+, a superb French restaurant in my suburban town, to celebrate a physics
+ result like using hypercomplex numbers to resolve the spin 2 current coupling
+ issue.
+ Our next tentatively scheduled visit hinges on not seeing the Higgs in
+ a vast sea of bottom-antibottom possibilities between 120 to 145 GeV.
+\end_layout
+
+\begin_layout Standard
+This is a personal research blog.
+ I may run out of ideas worth sharing.
+ It is not like a blog about the National Football League
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+National Football League
+\end_layout
+
+\end_inset
+
+, with its predictable ebb and flow of the season.
+ I have to rummage around my own mind, dust off ideas, then make sure I
+ can show they make sense.
+ It is good I stored away 14 years of such meanderings with quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The technology used to produce blogs, videos, and future book all have a
+ guiding theme: speed.
+ Fast is the most important quality of any technical choice.
+ Most of the work is done on a 
+\emph on
+Mac Mini
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Mac Mini
+\end_layout
+
+\end_inset
+
+ - $1.3k
+\emph default
+.
+ I do have a Linux box that produces the quaternion animations.
+ Several key video tools are Mac only.
+\end_layout
+
+\begin_layout Section*
+Blog Tools
+\end_layout
+
+\begin_layout Standard
+Here is a list of what I use to write the blog, in rough time order.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{33mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/gqueues.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+GQueues
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GQueues
+\end_layout
+
+\end_inset
+
+.com - $25/year
+\emph default
+.
+ This is a fast, web-based outliner.
+ It is essential to order the subjects in a blog in a rational way, even
+ if that is not the order they are generated.
+ Rearranging is quick.
+ When on an item, type the number where it belongs.
+ There are single letter shortcuts for most operations, like 'i' for another
+ item or 's' for a new subtask.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Clipboard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Clipboard
+\end_layout
+
+\end_inset
+
+ and Post-It Notes - $1
+\emph default
+.
+ The first draft is written out longhand on a clipboard, often at Jam Time,
+ a gym for my daughter.
+ I keep a single page printout of the outline in hand.
+ The post-its are generated as they happen, mornings in particular.
+ Drafts get tossed away since it would require too much effort to file them.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-52mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/google_docs.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Google!Docs
+\end_layout
+
+\end_inset
+
+
+\emph on
+Google Docs - free
+\emph default
+.
+ Fear of the first line is avoided by always using the same format: "This
+ is a dramatic reading of 'Blog on Weekly Blogging', a blog by the Stand-Up
+ Physicist
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Stand-Up Physicist
+\end_layout
+
+\end_inset
+
+ available on Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+.com." The drafts are published on the web.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Text to Speech - Free
+\emph default
+.
+ Both Mac and Linux can translate text into robo-speech.
+ I bet there is an app for that, and a web site too.
+ This helps me hear errors that need to be addressed.
+ I do this 2-6 times per blog.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Text to Speech - Free
+\emph default
+.
+ I read the post out loud.
+ Since speaking uses different parts of the brain, different flaws are found,
+ particularly awkward sentences.
+ I have skipped this step about a third of the time.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Techno-doodles - $20
+\emph default
+.
+ This is something I should do more: simple figures with technical messages.
+ An outline is done in pencil, with ample use of the eraser, in a 5H led
+ which is light and easy to hide later.
+ Then I add ink or go to a B pencil.
+ If color would aid the message, I have pastels, pencils, markers, and crayons,
+ which ever makes the most visual sense.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Lumix DMC-FZ28K - $310
+\emph default
+.
+ Since the photos will get reduced for the web site to 200-600 pixels, any
+ digital camera will do.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{15mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_latexit.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+LaTeXiT
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LaTeXiT
+\end_layout
+
+\end_inset
+
+ - $25
+\emph default
+ (Mac).
+ Actually, it is free, but the guy in France deserves a donation for such
+ nice work.
+ The LaTeX
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LaTeX
+\end_layout
+
+\end_inset
+
+ for the blog gets tested and tweaked.
+ The resulting equation is stored in a library folder (blog_title/eq-1_GEM_Lagra
+ngian for example).
+ Being able to find something quickly is essential for reuse.
+ An eps file is exported for the book.
+\end_layout
+
+\begin_layout Standard
+The end result is a blog with text and pictures available in the early AM
+ every Tuesday.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{The videoblog starts after}
+\end_layout
+
+\end_inset
+
+ the Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ blog has been released.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Cheap props - $0
+\emph default
+.
+ I used to spend a month making props for episodes of The Stand-Up Physicist
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Stand-Up Physicist
+\end_layout
+
+\end_inset
+
+, shown only on Auburn Community TV
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Auburn Community TV
+\end_layout
+
+\end_inset
+
+, an obscure outlet.
+ Now all I do is write on napkins and wave a book at the camera.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/physics_boards.JPG
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-35mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/monitor_isolagated.JPG
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-60mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/lights_2.JPG
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+28 Inch Monitor with Wall Mount - $500
+\emph default
+.
+ This is my teleprompter
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+teleprompter
+\end_layout
+
+\end_inset
+
+.
+ I pull it out from the wall, get to full screen mode, make the font huge,
+ then page through the Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ print form of the blog, free of Celebrity TV ads.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Fluorescent Light Kit
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Light Kit
+\end_layout
+
+\end_inset
+
+ - $170
+\emph default
+.
+ I have a 1500 watt halogen light kit, but those ran so hot I melted the
+ insulation on one of the basement pipes.
+ The fluorescent lights use less electricity and are cool.
+ I was cheap and did not get a light box, so the bulbs can be seen in the
+ reflections of my glasses.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/camcorder_isolation.JPG
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+Panasonic HDC-SD1 - $760
+\emph default
+.
+ I do have a higher quality video camera, but it uses tape which requires
+ more effort to download to the computer.
+ I chose this one out of a crowded field because it had the best microphones.
+ A bad sound track means a bad video.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_imovie.png
+	width 2cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+iMovie
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+iMovie
+\end_layout
+
+\end_inset
+
+ - $80 (Mac).
+ I own what was the way more expensive video package, Final Cut Pro
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Final Cut Pro
+\end_layout
+
+\end_inset
+
+ Suite, but found for this project it was faster to use iMovie.
+ Less options means less thinking.
+ It is more than good enough for chatting in front of a camera.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_motion.png
+	width 2cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Motion
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Motion
+\end_layout
+
+\end_inset
+
+ - $50 (Mac).
+ Used for the title and end credits.
+ I only change the title, then export, a 5 minute job.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{-10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/icon_for_youtube.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ - free.
+ Serve it up.
+ I now "monitize" it all.
+\end_layout
+
+\begin_layout Standard
+The video is a merger of the title sequence, body of the talk, plus the
+ credits.
+ If I stumble, I put a hand up in front of the camera to mark the botch,
+ and delete that part of the video.
+ Images, videos, and sound effects are added as needed.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newthought{The book}
+\end_layout
+
+\end_inset
+
+is the last output from this blogging effort.
+ The drive only started in the last month.
+ I knew that LaTeX
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LaTeX
+\end_layout
+
+\end_inset
+
+ can be used to make a professional looking book, with a table of contents,
+ footnotes, and an index, but the resulting documents are often visually
+ dull, a stream of words, since that is what most technical papers are.
+ There was a LaTeX format inspired by Edward Tufte
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Tufte, Edward
+\end_layout
+
+\end_inset
+
+, the big name in information design.
+ Buy and study his books.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{15mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-30mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/icon_for_lyx.png
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+Lyx
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Lyx
+\end_layout
+
+\end_inset
+
+ - free (Mac/MS/Linux)
+\emph default
+.
+ The current version, 2.0, knows about the Tufte-book style.
+ That style allows both margin comments and figures.
+ The indexing is professional, allowing for subindexing and making a reference
+ to a section on a topic stand out in bold.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Github
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Github
+\end_layout
+
+\end_inset
+
+.com - free (if public).
+
+\emph default
+ The chapter drafts and the accompanying software is being stored there.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/github.png
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I wrote a program in Perl
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Perl
+\end_layout
+
+\end_inset
+
+ to merge the chapters.
+ A chapter stays at a digestible size of 6-10 pages, while the book continues
+ to grows too big to be dealt with efficiently.
+ My software finds all .lyx files, removes the header and footer, and creates
+ one big book_of_blogs.lyx file.
+ Notes about technical details are there too for those who wish to investigate
+ that possibility for their own work.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/being_elle.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\emph on
+Blurb
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Blurb
+\end_layout
+
+\end_inset
+
+.com - $60/250 page color softcover book
+\emph default
+.
+ These folks will be my printer.
+ They already have printed two of my books: "Being Elle: Laurencia Elle
+ Sweetser's First Year
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+books!Being Elle: Laurencia Elle Sweetser's First Year
+\end_layout
+
+\end_inset
+
+" and "A Young Man Watches a Young War
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+books!A Young Man Watches a Young War
+\end_layout
+
+\end_inset
+
+", a journal my 25 year-old grandfather kept while in Paris
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Paris
+\end_layout
+
+\end_inset
+
+ in October, 1, 1914, about to bike to the front lines.
+ Oops, well, apparently he did survive.
+ Both are free to flip through in their entirety.
+ 
+\end_layout
+
+\begin_layout Section*
+Blog Time 
+\end_layout
+
+\begin_layout Standard
+Blogging takes time.
+ I estimate I put in 20-25 hours per week.
+ I work the late shift, starting at 9 PM, going to 1-3 AM.
+ Lunch time can be blog time.
+ Here is a visual representation of the time line:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/Time_flow.3dpi.png
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The sizes correlated to the amount of time spent on the task.
+\end_layout
+
+\begin_layout Section*
+Feedback
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+feedback|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Start with the null feedback, the sound of silence.
+ There has been zero sales of the "No Stinkin' Higgs" t-shirt since the
+ blogging
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+blogging
+\end_layout
+
+\end_inset
+
+ started (there were sales to report to the IRS
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+IRS
+\end_layout
+
+\end_inset
+
+ before).
+ The Google Plus hangout
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Google!hangout
+\end_layout
+
+\end_inset
+
+ has led to one discussion.
+ It was a good one, so I will keep that channel open for the time being.
+ No one tenure track or above has contacted me about this work.
+\end_layout
+
+\begin_layout Standard
+The number of views on Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ swamps those on YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ by approximately an order of magnitude.
+ The market response to these two channels is why doing a good job on the
+ Science20 blog takes precedence over the videoblog.
+ I expect any book to sell less than ten copies as my other books have.
+ Zero marketing dollars leads to zero sales.
+\end_layout
+
+\begin_layout Standard
+Quantum mechanics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quantum mechanics
+\end_layout
+
+\end_inset
+
+ is number one.
+ The forever(?) ellusive Higgs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!boson
+\end_layout
+
+\end_inset
+
+ is hot.
+ Sex sells.
+ The Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle
+\end_layout
+
+\end_inset
+
+ Answer series is explicitly technical so is a low draw, but I am committed
+ to it.
+\end_layout
+
+\begin_layout Section*
+Rewards
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+rewards|textbf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It ain't the money.
+ I am pulling in $2 per month from Science20
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Science20
+\end_layout
+
+\end_inset
+
+ and YouTube
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+YouTube
+\end_layout
+
+\end_inset
+
+ each.
+ Science 20 is more generous.
+ Although my video channel has passed the 200k download mark, I have yet
+ to see my first Ben Franklin from Google
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Google
+\end_layout
+
+\end_inset
+
+ (that is their low limit on payouts).
+ I estimate my pay rate is a dime an hour.
+ As far as the IRS
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+IRS
+\end_layout
+
+\end_inset
+
+ is concerned, Universal GEM Productions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Universal GEM Productions
+\end_layout
+
+\end_inset
+
+ is a Schedule C business that consistently loses money.
+\end_layout
+
+\begin_layout Standard
+The rewards to my research have been superlative.
+ One is my smaller than the standard model model:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/blogging/standard_model_as_subgroups.eps
+	width 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Making an intellectual structure more compact is almost impossible.
+ It is an alternative to the big mansion groups 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+groups!SU(5)
+\end_layout
+
+\end_inset
+
+SU(5)
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!SU(10)
+\end_layout
+
+\end_inset
+
+, SU(10), and the Monster Group 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!E(8)
+\end_layout
+
+\end_inset
+
+E(8).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{3mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-38mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/doug/Dropbox/Science20/Equivalence_principle/ton_w_gauges.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+The two flavors of the equivalence principle used to be vague in my mind.
+ Now I can see the weak equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!weak
+\end_layout
+
+\end_inset
+
+ - inertial mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!inertial
+\end_layout
+
+\end_inset
+
+ always exactly cancelling gravitational mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mass!gravitational
+\end_layout
+
+\end_inset
+
+ - as the gauge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gauge!cancellation
+\end_layout
+
+\end_inset
+
+ cancellation between quaternion
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions!field strength
+\end_layout
+
+\end_inset
+
+ and hypercomplex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex!field strengh
+\end_layout
+
+\end_inset
+
+ field strengths.
+ The strong equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!strong
+\end_layout
+
+\end_inset
+
+ - a dynamic metric
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+metric!dynamic
+\end_layout
+
+\end_inset
+
+ is the complete story, and any additional fields ruin the pudding - looks
+ to me like the duality
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+duality
+\end_layout
+
+\end_inset
+
+ of a metric and 4-potential solution.
+\end_layout
+
+\begin_layout Standard
+The games with the quaternion triple products
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternion!triple products
+\end_layout
+
+\end_inset
+
+ have been intricate.
+ I accept that there will never quite be the gamma matrices
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gamma matrices
+\end_layout
+
+\end_inset
+
+, leaving the door open to the possibility that they will behave better.
+ In particular, a technical connection to fermions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+fermions
+\end_layout
+
+\end_inset
+
+ is a bridge that must be built before hordes of theoretical physicists
+ drive down this road - if it can be built at all.
+\end_layout
+
+\begin_layout Standard
+The biggest reward is one I can know the least about: the social network
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+social network
+\end_layout
+
+\end_inset
+
+ effects.
+ I had a three page riff on possible scenarios.
+ Rereading the draft, it is hot air.
+ The bottom line is that if 2012 opens up without a Higgs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!boson
+\end_layout
+
+\end_inset
+
+ or supersymmetric particle within sight, that may get a cell or two of
+ physicists to walk down the GEM
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+ Lagrangian to field equations to solutions path.
+ Until then, I have work to do, no matter what day of the week it is.
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{50mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/blogging/age_of_universe.png
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+SPOILER!!!
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Go to a reference library.
+ No wait, don't bother.
+ Sit down in front of a computer like you are right now.
+ Open up another tab in your browser.
+ Go to WolframAlpha
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+WolframAlpha
+\end_layout
+
+\end_inset
+
+.com.
+ Type in: (Age of the Universe)/(Planck time
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Planck!time
+\end_layout
+
+\end_inset
+
+).
+ Save a tree and commit the number to memory.
+ Now type in: (radius of the observable universe)/(Plank length
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Plank!length
+\end_layout
+
+\end_inset
+
+).
+ Notice the ratio between the two numbers.
+ Then skeptically ask: (mass of the universe)/(Plank mass
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Plank!mass
+\end_layout
+
+\end_inset
+
+).
+ Ramble about whether you think that number should be bigger or smaller
+ than the other ones.
+ Welcome to the world of dimensionless Plank ratios
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Plank!ratios, dimensionless
+\end_layout
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard

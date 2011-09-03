@@ -1,0 +1,1168 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass tufte-book
+\begin_preamble
+%%%%%%%%% PDF/X-3 stuff, necessary for Blurb IF USING xelatex %%%%%%%%%
+\special{pdf:docinfo <<
+/Title (Equivalence Principle)   % set your title here
+/Author (Doug Sweetser)       % set author name
+/Subject (Physics)          % set subject
+/Keywords (Strong Equivalence Principle) % set keywords
+/Trapped (False)
+/GTS_PDFXVersion (PDF/X-3:2002)
+% must have a trim box, but I think Blurb ignores the values
+/TrimBox [0.00000 9.00000 684.36000 585.00000] >>
+}
+\special{pdf:put @catalog <<
+/OutputIntents [ <<
+/Info (none)
+/Type /OutputIntent
+/S /GTS_PDFX
+/OutputConditionIdentifier (Blurb.com)
+/RegistryName (http://www.color.org/)
+>> ] >>
+}
+  
+\end_preamble
+\options blurb
+\use_default_options true
+\begin_modules
+logicalmkup
+tabs-within-sections
+figs-within-sections
+eqs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics xetex
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Quaternions For A Third Grader
+\end_layout
+
+\begin_layout Standard
+Third graders enjoy clay and pipe cleaners.
+ It might sound cruel to teach them graduate level graph theory most math
+ Ph.D.’s have not seen, but I might get away with it if I uses the right craft
+ supplies.
+ Tell kids spinach is good for them.
+ Children are right to skeptical, as I expect of my reader.
+\end_layout
+
+\begin_layout Standard
+Real numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!real
+\end_layout
+
+\end_inset
+
+ are the most important numbers out there, bar none.
+ Even for people working with category theory can have Elmo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Elmo
+\end_layout
+
+\end_inset
+
+ count their functors as long as they are written down on a piece of paper.
+ While I have watched Elmo count four ducks, four birds of a feather, a
+ few hundred times, I have not seen him do any multiplication.
+ No doubt this would be the first step:
+\end_layout
+
+\begin_layout Standard
+1 x 1 = 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-40mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_real_number.jpg
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Here is what it looks like in clay and pipe cleaners.
+\end_layout
+
+\begin_layout Standard
+The clay ball is the vertex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+vertex
+\end_layout
+
+\end_inset
+
+, the pipe cleaner is an edge.
+ Both are labelled.
+ Vertex 1 times edge 1 brings us back to vertex 1.
+ This sounds too simple.
+ I recognize that few of the esteemed readers here are still in third grade,
+ rare that a school would hold back a pupil for decades, although if you
+ are that special, I apologize.
+\end_layout
+
+\begin_layout Standard
+The next step for Elmo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Elmo
+\end_layout
+
+\end_inset
+
+ is...
+ no, this would never be done in the real world, because the real world
+ is real, no need to use imaginary numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!imaginary
+\end_layout
+
+\end_inset
+
+ that are far, far to difficult to ever understand even as a post-doc.
+ Yet children do have great imaginations, so they should be naturals with
+ imaginary numbers.
+ Look at the math:
+\end_layout
+
+\begin_layout Standard
+i x 1 = i
+\end_layout
+
+\begin_layout Standard
+Um, actually, that is darn similar to the last one.
+ The graph theory
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graph theory
+\end_layout
+
+\end_inset
+
+ is the same except that the label for the vertex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+vertex
+\end_layout
+
+\end_inset
+
+ gets changed.
+ No visible difference at the clay and pipe cleaner level between real
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!real
+\end_layout
+
+\end_inset
+
+ and imaginary
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!imaginary
+\end_layout
+
+\end_inset
+
+ numbers.
+\end_layout
+
+\begin_layout Standard
+I know, I know, the math Ph.D.
+ is going to hit me over the head with a morphism I don’t understand.
+ Here is why the claim works: it is the pipe cleaner, the edge, the second
+ number that is the real number
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+number!real
+\end_layout
+
+\end_inset
+
+.
+ What happens if the edge, the second number, if that is the imaginary number
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+number!imaginary
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+1 x i = i
+\end_layout
+
+\begin_layout Standard
+i x -i = 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_complex_number.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+I am a guy with two clay balls, one labeled “1”, the other labeled “i”.
+ I am not a three balls guy, so one of the labels gets a “-i” for the edge
+ or vas deferens (pop anantomy quiz: two testicles
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+testicles
+\end_layout
+
+\end_inset
+
+ are not connected together by the sperm ducts, so please draw an accurate
+ picture of the private plumbing.
+ As a bonus, explain to anyone seeing you answer this pop quiz how this
+ relates to the number theory of theoretical physics).
+ The real numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!real
+\end_layout
+
+\end_inset
+
+ on edges make for undirectional graphs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graphs!undirectional
+\end_layout
+
+\end_inset
+
+.
+ The imaginary numbers on edges make for directional graphs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graphs!directional
+\end_layout
+
+\end_inset
+
+.
+ Complex numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+numbers!complex
+\end_layout
+
+\end_inset
+
+ have two undirectional and two directional edges connecting their two vertexes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{10mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_quaternions.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+To do quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+, you need more balls, two more balls.
+\end_layout
+
+\begin_layout Standard
+The full set of rules look similar:
+\end_layout
+
+\begin_layout Standard
+1 x 1 = 1
+\end_layout
+
+\begin_layout Standard
+i x 1 = i
+\end_layout
+
+\begin_layout Standard
+1 x i = i
+\end_layout
+
+\begin_layout Standard
+i x -i = 1
+\end_layout
+
+\begin_layout Standard
+j x 1 = j
+\end_layout
+
+\begin_layout Standard
+1 x j = j
+\end_layout
+
+\begin_layout Standard
+j x -j = 1
+\end_layout
+
+\begin_layout Standard
+k x 1 = k
+\end_layout
+
+\begin_layout Standard
+1 x k = k
+\end_layout
+
+\begin_layout Standard
+k x -k = 1
+\end_layout
+
+\begin_layout Standard
+Let’s take a survey where I know the answer: how many of you have built
+ the graph theory
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graph theory
+\end_layout
+
+\end_inset
+
+ for a quaternion
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternion
+\end_layout
+
+\end_inset
+
+? Without collecting any data, my guess is zero.
+ If you have, you will know what a pain in the ass it is to get those two
+ pipe cleaners to go into the one hole in the clay.
+ I had to tie a little piece of string around a little pair of pipe cleaners,
+ tie a tiny knot, clip off the extra, all without knocking down the delicate
+ structure.
+ Once you have done this 12 times, you say, “Fuck these two pipe cleaners”
+ (hopefully without the kids in earshot).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-60mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/graph_hypercomplex.jpg
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Build this simpler structure.
+\end_layout
+
+\begin_layout Standard
+The rules are simpler too:
+\end_layout
+
+\begin_layout Standard
+1 x 1 = 1
+\end_layout
+
+\begin_layout Standard
+i x 1 = i x 1 = i
+\end_layout
+
+\begin_layout Standard
+j x 1 = 1 x j = j
+\end_layout
+
+\begin_layout Standard
+k x 1 = 1 x k = k
+\end_layout
+
+\begin_layout Standard
+i x i = j x j = k x k = 1
+\end_layout
+
+\begin_layout Standard
+All undirectional graphs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+graphs!undirectional
+\end_layout
+
+\end_inset
+
+, every last one of them.
+ Much easier to build and maintain.
+ Formally this is the graph for the Klein 4-group
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!Klein
+\end_layout
+
+\end_inset
+
+.
+ I like to call this the California representation of hypercomplex numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex numbers!California representation
+\end_layout
+
+\end_inset
+
+.
+ Always sunny out there in California compared to New England, and there
+ is not a minus sign in their house.
+ No negativity, all about love, making things bigger for all.
+\end_layout
+
+\begin_layout Standard
+It is these two graphs constructed out of clay and pipe cleaners sitting
+ on a shelf in the basement that ground my belief that quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+ and hypercomplex numbers
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex numbers
+\end_layout
+
+\end_inset
+
+ together may be sufficient to completely describe patterns of events
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+events
+\end_layout
+
+\end_inset
+
+ in spacetime
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacetime
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I am well aware of the soiled reputation quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+ have in the theoretical physics
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+theoretical physics
+\end_layout
+
+\end_inset
+
+ world.
+ One solid justification is that the Lorentz group
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!Lorentz
+\end_layout
+
+\end_inset
+
+ cannot be written using quaternions.
+ That one failure is enough to avoid them as people avoid people with leprosy.
+ But I worked on leprosy the disease.
+ One of few lines of a technical paper I can quote goes: “Research over
+ the past 100 years to infect people with leprosy
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+leprosy
+\end_layout
+
+\end_inset
+
+ have failed.” Much to the tremendous pleasure of the people coerced into
+ the studies! People are visual, not so analytic.
+ Leprosy is the most visually damaging disease, and thus the most feared.
+ But the mycobateria that causes it does not jump from person to person
+ with any efficiency whatsoever.
+ It is thought that if a person has a genetic flaw, and much repeated exposure,
+ then they have a chance of picking up this slow growing bacilli that is
+ easily treated with sulfur drugs.
+ Only if you are really unlucky, really poor, could you get Hansen’s disease,
+ and then have to be unlucky and poor not to have it treated effectively.
+ Two or three million people fall into this class worldwide.
+\end_layout
+
+\begin_layout Standard
+In July, 2010, I figured out how to represent the Lorentz group
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+groups!Lorentz
+\end_layout
+
+\end_inset
+
+ with quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+.
+ If you have the math chops to understand the claim, I will leave it as
+ a puzzle at the end of this post which is targeted for the third grader.
+ Point of full disclosure: of course I own quaternions.com
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions.com
+\end_layout
+
+\end_inset
+
+, but pursuant to the guidelines of Science 2.0, I am not trying to drive
+ traffic there (mostly because there are no ads there, no income stream
+ to tap).
+ Some will claim I am a quaternion zealot.
+ Let the two graphs presented here be a counter argument.
+ Quaternions cannot do it all, the hypercomplex numbers are just as vital.
+\end_layout
+
+\begin_layout Standard
+Here is a sketch of my road to a unified standard model
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GEM
+\end_layout
+
+\end_inset
+
+, distinct from a unified field theory which historically focuses on gravity
+ and EM alone.
+ One need to get to 
+\series bold
+\emph on
+B
+\series default
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+-
+\series bold
+\emph on
+E
+\series default
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ and 
+\series bold
+\emph on
+E
+\series default
+\emph default
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+.
+\end_layout
+
+\end_inset
+
+
+\series bold
+\emph on
+B
+\series default
+\emph default
+, drop that into Euler-Lagrange
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Euler-Lagrange
+\end_layout
+
+\end_inset
+
+, and out pop the Maxwell
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Maxwell equations
+\end_layout
+
+\end_inset
+
+ source and homogeneous equations respectively.
+ I can do that in a gauge invariant way with quaternions
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+quaternions
+\end_layout
+
+\end_inset
+
+, simpler than the contraction of the EM field strength tensors.
+ I repeat the exercise with hypercomplex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hypercomplex numbers
+\end_layout
+
+\end_inset
+
+ rules of multiplication, the ones with no minus signs.
+ If you think about the two graphs in this post - superimpose one on the
+ other in your mind’s eye - you might be able to convince yourself that
+ exactly half the signs change.
+ Give me 15 clean blackboards and two hours, I could show you in excessive
+ detail that exactly half the signs change.
+ You can spot good old Newton’s law of gravity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Newton!law of gravity
+\end_layout
+
+\end_inset
+
+ plus a time dependent term, showing respect for the speed limit of light.
+ There is no no monopoles law
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Maxwell equations!no monopoles law
+\end_layout
+
+\end_inset
+
+, but that is good because mass has but one charge.
+ Using hypercomplex numbers does mean gravity
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gravity
+\end_layout
+
+\end_inset
+
+ is all about love, all about attraction, all that ever happens in the Hollywood
+ version of sunny California.
+ Do the Lagrangian to field equation routine a third time, using the hypercomple
+x Lagrangian minus the quaternion stuff, in a way that the hypercomplex
+ stuff depends on a gauge
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+gauge
+\end_layout
+
+\end_inset
+
+ and cannot travel at the speed of light, and the quaternion stuff depends
+ on the same gauge exactly the same way, but overall, the magic of a minus
+ sign cancels both gauges so the Lagrange density overall is gauge invariant.
+ The Higgs mechanism
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Higgs!mechanism
+\end_layout
+
+\end_inset
+
+ is a cute solution, but I prefer a cute Lagrangian.
+ I could get Elmo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+people!Elmo
+\end_layout
+
+\end_inset
+
+ to can point to a quantum field equivalence principle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+equivalence principle!weak
+\end_layout
+
+\end_inset
+
+ in the Lagrangian that the standard model
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+standard model
+\end_layout
+
+\end_inset
+
+ plus the Higgs mechanism cannot.
+\end_layout
+
+\begin_layout Standard
+I will stand next to this strong statement: 
+\end_layout
+
+\begin_layout Quote
+The derivation and field equations for the GEM unified standard model proposal
+ are drop dead gorgeous.
+\end_layout
+
+\begin_layout Standard
+That claim already applies as is to the Maxwell equations, which are stunning.
+ I am inviting a few more of beauties to the party.
+\end_layout
+
+\begin_layout Standard
+There are mountains, mountains and mountains left to climb, but at the base,
+ is this vision of numbers for spacetime
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+spacetime
+\end_layout
+
+\end_inset
+
+ made from clay and pipe cleaners.
+\end_layout
+
+\begin_layout Section*
+Snarky Puzzle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+snarky puzzle!Lorentz boost
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+"Quaternions came from Hamilton after his really good work had been done;
+ and though beautifully ingenious, have been an unmixed evil to those who
+ have touched them in any way, including Maxwell." 
+\end_layout
+
+\begin_layout Quotation
+\align right
+
+\emph on
+--Lord Kelvin
+\end_layout
+
+\begin_layout Standard
+Quaternions have been a one-trick pony, good for doing 3D rotations since
+ the 1850’s.
+ We presume you have received a good enough education to write it down as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{2mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/dsweetser/Dropbox/Science20/quaternions_for_a_3rd_grader/quaternion_rotation.eps
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where I is an arbitrary 3-vector.
+ Show how if hyperbolic sine
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hyperbolic!sine
+\end_layout
+
+\end_inset
+
+ and hyperbolic cosine
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hyperbolic!cosine
+\end_layout
+
+\end_inset
+
+ functions are swapped in, evil results: while two terms are correct, two
+ terms are missing, and two other terms that don’t belong soil the calculation
+ any finely educated simpleton would try first.
+ Your job: unmix the evil.
+ For this not simply connected group, find another two combinations of these
+ hyperbolic functions, R, and conjugate operators that correct the flaws.
+ That is what “not simply connected” means, that things must be added together,
+ or did they skip the obvious in your group theory training? Should you
+ tire of the strain, the answer is on a preprint server.
+ Note, that is not the preprint server, since those living on the ultra-conserva
+tive fringe have to build their own servers out of fairy dust and Drupal
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Drupal
+\end_layout
+
+\end_inset
+
+.
+ Very old school here, pre-school, grad school, fringe school, whatever.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
